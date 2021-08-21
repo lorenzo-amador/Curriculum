@@ -169,15 +169,39 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
      text-align: justify;
  }
  
- .acerca-de-mi-container-texto p:nth-child(1) {
+ /* .acerca-de-mi-container-texto p:nth-child(1) {
      color: #403e3e;
      font-family: myriad pro;
      font-weight: bold;
      font-size: 23px;
      line-height: 0px;
      padding-bottom: 15px;
- }
- 
+ } */
+ .h { 
+	position: relative; 
+	float:inline-start;
+    text-align: center;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	padding-inline: 2px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.h span {
+    position:absolute;
+    right: 0;
+    width:0;
+    background: #ffffff;
+    border-left: 3px solid rgba(0, 0, 0, 0.459);
+    animation: escribir 3s steps(15) infinite ;
+
+}
+
+@keyframes escribir {
+    from { width: 60% }
+    to { width:35% }
+}
  .acerca-de-mi-container-texto p:nth-child(2) {
      color: #3e3d3d;
      font-size: 13px;
@@ -204,12 +228,18 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
  }
  
  .Habilidades {
-     width: 1000px;
+     /* width: 1000px;
      height: 300px;
      margin-left: 10%;
      background-color: rgba(0, 0, 0, 0.883);
      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-     border-radius: 1%; 
+     border-radius: 1%;  */
+     width: 80%;
+     height: 270px;
+     background-color: rgba(0, 0, 0, 0.883);
+     border-radius: 20px;
+     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+     margin-left:10%; 
  }
  
  .Habilidades p {
@@ -517,9 +547,10 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
      .acerca-de-mi-container-texto {
          width: 400px;
      }
-     .acerca-de-mi-container-texto p:nth-child(1) {
+     /* .acerca-de-mi-container-texto p:nth-child(1) {
          font-size: 20px;
-     }
+     } */
+     .h{font-size: 20px;}
      .acerca-de-mi-container-texto p:nth-child(2) {
          font-size: 10px;
      }
@@ -571,6 +602,10 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
          .toggle {
              display: block;
          }
+         @keyframes escribir {
+            from { width: 70% }
+            to { width:26% }
+        }
          .text-container p:nth-child(2) {
              line-height: 40px;
              margin: 10px;
@@ -582,6 +617,10 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
              transform: translate(-50%, -50%);
              width: 80%;
          }
+         .acerca-de-mi-container-texto:nth-child(2) {
+            text-align: justify;
+        
+        }
          nav ul {
              margin: 0px;
              padding: 0px;
