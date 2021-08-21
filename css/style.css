@@ -300,7 +300,7 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
  .cursos-texto p:nth-child(3) {
      font-family: calibri;
      color: #7e7d7d;
-     font-size: 15px;
+     font-size: 18px;
      
  }
  
@@ -317,9 +317,10 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
  .box-1,
  .box-2,
  .box-3,
- .box-4 {
-     width: 300px;
-     height: 320px;
+ .box-4, 
+ .box-5 {
+ width: 200px;
+     height: 350px;
      background-repeat: no-repeat;
      background-size: cover;
      box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
@@ -327,7 +328,7 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
      justify-content: center;
      display: flex;
      flex-direction: column;
-     margin: 0px 4px;
+     margin: 0px 2px;
  }
  
  .box-1 {
@@ -336,7 +337,7 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
  
  .box-2 {
      background-image: url("../img/desa.jpg");
-     background-size: 100%  100%;
+
  }
  
  .box-3 {
@@ -348,13 +349,19 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
     
 
 }
+ .box-5 {
+    background-image: url("../img/Grafia.jpg");
+    
+
+}
  
  .box-1 span,
  .box-2 span,
  .box-3 span,
- .box-4 span {
-     width: 40px;
-     height: 40px;
+ .box-4 span,
+ .box-5 span {
+     width: 50px;
+     height: 50px;
      border-radius: 50%;
      background-color: #ffffff;
      display: flex;
@@ -362,12 +369,14 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
      align-items: center;
      font-family: calibri;
      font-weight: bold;
+     font-size: 25px;
  }
  
  .box-1 p:nth-child(2),
  .box-2 p:nth-child(2),
  .box-3 p:nth-child(2),
- .box-4 p:nth-child(2) {
+ .box-4 p:nth-child(2),
+ .box-5 p:nth-child(2) {
      color: #ffffff;
      font-weight: 900;
      font-family: calibri;
@@ -379,11 +388,12 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
  .box-1 p:nth-child(3),
  .box-2 p:nth-child(3),
  .box-3 p:nth-child(3),
- .box-4 p:nth-child(3) {
+ .box-4 p:nth-child(3),
+ .box-5 p:nth-child(3) {
      font-family: calibri;
      color: #ffffff;
-     text-align: center;
-     width: 230px;
+     text-align: justify;
+     width: 170px;
      margin: 0px 0px 20px 0px;
 
  }
@@ -391,22 +401,25 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
  .box-1 .button,
  .box-2 .button,
  .box-3 .button, 
- .box-4 .button {
+ .box-4 .button,
+ .box-5 .button {
      width: 150px;
      height: 25px;
      background-color: #FFFFFF;
      border: none;
-     outline: none;
+     outline:none;
      text-align: center;
      border-radius: 5px;
      padding-top: 3%;
      color: #000000;
      font-weight: 900;
+
  }
  .box-1 .button:hover,
  .box-2 .button:hover,
  .box-3 .button:hover, 
- .box-4 .button:hover{
+ .box-4 .button:hover,
+ .box-5 .button:hover{
     background-color: rgb(0, 0, 0);
     color: #ffffff;
  } 
@@ -591,7 +604,8 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
      .box-1,
      .box-2,
      .box-3,
-     .box-4 {
+     .box-4,
+     .box-5 {
          flex-grow: 1;
          margin: 10px;
      }
@@ -723,16 +737,19 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
              align-items: center;
          }
          .acerca-de-mi-container-texto {
-             width: 90%;
+             width: 70%;
              text-align: center;
+             margin-bottom: 15px;
          }
          .cursos-texto {
              width: 100%;
          }
+
          .box-1 .button,
          .box-2 .button,
          .box-3 .button, 
-         .box-4 .button {
+         .box-4 .button,
+         .box-5 .button {
              width: 150px;
              height: 30px;
              background-color: #FFFFFF;
@@ -744,6 +761,15 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
              color: #000000;
              font-weight: 800;
          }
+         .box-1 p:nth-child(3),
+ .box-2 p:nth-child(3),
+ .box-3 p:nth-child(3),
+ .box-4 p:nth-child(3),
+ .box-5 p:nth-child(3) {
+     text-align: justify;
+     width: 250px;
+     font-size: 20px;
+ }
          .contacto {
              height: 180px;
          }
