@@ -783,4 +783,8 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
          footer p:nth-child(2) {
              width: 90%;
          }
+         .copyright{
+             font-size:12px;
+
+         }
      }
