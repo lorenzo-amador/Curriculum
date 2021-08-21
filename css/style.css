@@ -67,12 +67,12 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
  }
  
  .Foto {
-     width: 500px;
-     height: 600px;
+     width: 400px;
+     height: 500px;
      position: absolute;
      bottom: 200px;
-     left: 85%;
-     transform: translateX(-75%);
+     left: 90%;
+     transform: translateX(-85%);
  }
  
  .text-container p:nth-child(1) {
@@ -127,14 +127,21 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
  }
  
  .descargar-cv {
-    background-color: #0B0B0B;
-    color: #fff;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
     border: none;
     width: 8px;
     height: 2px;
     padding: 6px;
     border-radius: 8px;
-    
+    font-weight: 800;
+
+}
+.descargar-cv:hover {
+    background-color: rgb(0, 81, 255);
+    color: rgb(255, 255, 255);
+
+
 }
  button:active {
      transform: scale(1.1);
@@ -159,6 +166,7 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
  
  .acerca-de-mi-container-texto {
      width: 500px;
+     text-align: justify;
  }
  
  .acerca-de-mi-container-texto p:nth-child(1) {
@@ -227,6 +235,7 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
      height: 600px;
      background-color: #ffffff;
      padding: 2% 10% 0px 10%;
+     text-align: justify;
  }
  
  .cursos-texto p:nth-child(1) {
@@ -339,13 +348,16 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
  .box-3 .button, 
  .box-4 .button {
      width: 150px;
-     height: 26px;
+     height: 25px;
      background-color: #FFFFFF;
      border: none;
      outline: none;
      text-align: center;
      border-radius: 5px;
+     padding-top: 3%;
  }
+
+
  
  .contacto {
      width: 100%;
@@ -468,11 +480,12 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
      background-color: #FFFFFF;
      border: 1px solid #CBCBCB;
      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+     border-radius: 50%;
  }
  
  .social a:hover {
      background-color: #000000;
-     transition: all ease 0.5s;
+     transition: all linear 0.5s;
  }
  
  .social i {
@@ -560,11 +573,11 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
          }
          .text-container p:nth-child(2) {
              line-height: 40px;
-             margin: 0px;
+             margin: 10px;
              padding: 0px;
          }
          .text-container {
-             top: 50%;
+             top: 40%;
              left: 50%;
              transform: translate(-50%, -50%);
              width: 80%;
@@ -654,6 +667,21 @@ body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76)}
          }
          .cursos-texto {
              width: 100%;
+         }
+         .box-1 .button,
+         .box-2 .button,
+         .box-3 .button, 
+         .box-4 .button {
+             width: 150px;
+             height: 30px;
+             background-color: #FFFFFF;
+             border: none;
+             outline: none;
+             text-align: center;
+             border-radius: 5px;
+             padding-bottom: 5%;
+             color: #000000;
+             font-weight: 800;
          }
          .contacto {
              height: 180px;
