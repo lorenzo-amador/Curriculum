@@ -2,6 +2,7 @@ body {
     background-color: #faf2f2;
     margin: 0px;
     padding: 0px;
+    font-family: poppins;
 }
 body::-webkit-scrollbar {
    -webkit-appearance: none;
@@ -83,6 +84,7 @@ nav ul li a {
     font-weight: bold;
     color: #ffffff;
     font-size: 30px;
+    margin-left: 1px;
 }
 
 .text-container p:nth-child(2) {
@@ -121,15 +123,12 @@ nav ul li a {
     left: 13%;
     top: 42%;
     transform: translate(-13%, -42%);
+    margin: 0 11%;
 }
 
-.hire-btn {
-    border: 2px solid #373636;
-    color: #373636;
-    background-color: transparent;
-}
+/* PRIMER BOTON DE DESCARGA */
 
-.descargar-cv {
+.descargar-cv-1 {
    background-color: #000000;
    color: rgb(255, 255, 255);
    border: none;
@@ -138,9 +137,26 @@ nav ul li a {
    padding: 6px;
    border-radius: 8px;
    font-weight: 800;
+   margin: 0 1%;
+
 
 }
-.descargar-cv:hover {
+/* SEGUNDO BOTON DE DESCARGA */
+.descargar-cv-2 {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 8px;
+    height: 2px;
+    padding: 6px;
+    border-radius: 8px;
+    font-weight: 800;
+    margin: 0 20%;
+ 
+ 
+ }
+.descargar-cv-1:hover,
+.descargar-cv-2:hover {
    background-color: rgb(0, 81, 255);
    color: rgb(255, 255, 255);
 
@@ -210,14 +226,12 @@ button:active {
    from { width: 60% }
    to { width:35% }
 }
-
-
-
+/* FIN ESCRITURA */
 
 
 .acerca-de-mi-container-texto p:nth-child(2) {
     color: #3e3d3d;
-    font-size: 13px;
+    font-size: 20px;
     font-family: myriad pro;
     font-weight: bold;
     line-height: 5px;
@@ -227,7 +241,7 @@ button:active {
 .acerca-de-mi-container-texto p:nth-child(4) {
     color: #7e7d7d;
     font-family: calibri;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .acerca-de-mi-container-texto button {
@@ -241,12 +255,6 @@ button:active {
 }
 
 .Habilidades {
-    /* width: 1000px;
-    height: 300px;
-    margin-left: 10%;
-    background-color: rgba(0, 0, 0, 0.883);
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 1%;  */
     width: 80%;
     height: 270px;
     background-color: rgba(0, 0, 0, 0.883);
@@ -278,7 +286,7 @@ button:active {
     height: 600px;
     background-color: #ffffff;
     padding: 2% 10% 0px 10%;
-    text-align: justify;
+    
 }
 
 .cursos-texto p:nth-child(1) {
@@ -312,6 +320,7 @@ button:active {
 .box-container {
     display: flex;
     justify-content:space-between;
+
 }
 
 .box-1,
@@ -319,7 +328,7 @@ button:active {
 .box-3,
 .box-4, 
 .box-5 {
-width: 200px;
+    width: 250px;
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -329,6 +338,7 @@ width: 200px;
     display: flex;
     flex-direction: column;
     margin: 0px 2px;
+    border-radius: 15px;
 }
 
 .box-1 {
@@ -392,7 +402,7 @@ width: 200px;
 .box-5 p:nth-child(3) {
     font-family: calibri;
     color: #ffffff;
-    text-align: justify;
+    text-align: center;
     width: 170px;
     margin: 0px 0px 20px 0px;
 
@@ -424,36 +434,7 @@ width: 200px;
    color: #ffffff;
 } 
 
-.contacto {
-    width: 100%;
-    height: 280px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.445);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 0px 20px 0px;
-}
 
-.contacto p {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-family: calibri;
-    font-weight: bold;
-    border-bottom: 2px solid #ffffff;
-}
-
-.contacto button {
-    width: 200px;
-    height: 40px;
-    background-color: #FFFFFF;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    font-weight: bold;
-}
 
 footer p {
     font-family: calibri;
@@ -516,7 +497,7 @@ footer {
     transition: all ease 0.5s;
 }
 
-.copyright {
+.Autor {
     color: #ffffff;
     font-size: 12px;
     font-weight: 700;
@@ -608,6 +589,7 @@ footer {
     .box-5 {
         flex-grow: 1;
         margin: 10px;
+        border-radius: 15px;
     }
 
     .logo img {
@@ -648,6 +630,10 @@ footer {
            text-align: justify;
        
        }
+       .descargar-cv-1 {
+        margin: 0 10%;
+     
+     }
         nav ul {
             margin: 0px;
             padding: 0px;
@@ -685,12 +671,14 @@ footer {
             line-height: 30px;
             z-index: 1;
         }
+        
         .toggle.active:before {
             content: '\f00d';
             position: fixed;
             right: 25px;
             line-height: 0px;
         }
+        /* FIN BOTON */
         nav.active ul {
             display: flex !important;
         }
@@ -758,7 +746,7 @@ footer {
         .box-3 p:nth-child(3),
         .box-4 p:nth-child(3),
         .box-5 p:nth-child(3) {
-        text-align: justify;
+        text-align: center;
         width: 250px;
         font-size: 20px;
 }
@@ -766,7 +754,7 @@ footer {
         footer p:nth-child(2) {
             width: 90%;
         }
-        .copyright{
+        .Autor{
             font-size:12px;
 
         }
