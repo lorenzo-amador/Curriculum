@@ -71,12 +71,12 @@ nav ul li a {
 }
 
 .Foto {
-    width: 400px;
-    height: 500px;
+    width: 600px;
+    height: 610px;
     position: absolute;
     bottom: 200px;
     left: 90%;
-    transform: translateX(-85%);
+    transform: translateX(-70%);
 }
 
 .text-container p:nth-child(1) {
