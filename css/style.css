@@ -261,7 +261,7 @@ button:active {
 
 .Habilidades p {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 40%;
 }
@@ -304,7 +304,7 @@ button:active {
 .cursos-texto p:nth-child(3) {
     font-family: calibri;
     color: #7e7d7d;
-    font-size: 18px;
+    font-size: 15px;
     
 }
 
@@ -721,7 +721,9 @@ footer {
         }
         .cursos-texto {
             width: 100%;
+            /* font-size: 16px; */
         }
+ 
 
         .box-1 .button,
         .box-2 .button,
