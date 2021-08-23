@@ -3,6 +3,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
+
+    /* PARA QUITAR EL DEZPLAZAMIENTO HORIZONTAL */
     overflow-x: hidden;
 }
 body::-webkit-scrollbar {
@@ -23,7 +25,7 @@ a {
 }
 
 section {
-    width: 100%;
+    width: 90%;
     height: 75vh;
     background-image: url("../img/section.jpg");
     background-size: cover;
@@ -41,7 +43,7 @@ nav {
     box-shadow: 2px 2px 12px rgba(10, 10, 10, 0.2);
     padding: 0px 5%;
     position: fixed;
-    z-index: 100;
+    z-index: 1;
     width: 90%;
 }
 
@@ -73,7 +75,7 @@ nav ul li a {
 
 .Foto {
     width: 600px;
-    height: 610px;
+    height: 630px;
     position: absolute;
     bottom: 200px;
     left: 90%;
@@ -187,7 +189,7 @@ button:active {
 }
 
 .acerca-de-mi-container-texto {
-    width: 500px;
+    width: 600px;
     text-align: justify;
 }
 
@@ -558,8 +560,9 @@ footer {
         width: 90%;
         border-radius: 10px;
     }
+    /* FOTOGRAFIA PEQUEÑA */
     .acerca-de-mi-container img {
-        height: 200px;
+        height: 300px;
     }
     .acerca-de-mi-container-texto {
         width: 400px;
@@ -748,8 +751,8 @@ footer {
         .box-4 p:nth-child(3),
         .box-5 p:nth-child(3) {
         text-align: center;
-        width: 250px;
-        font-size: 20px;
+        width: 150px;
+        font-size: 15px;
 }
 
         footer p:nth-child(2) {
