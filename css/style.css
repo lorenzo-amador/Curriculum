@@ -78,7 +78,7 @@ nav ul li a {
     height: 630px;
     position: absolute;
     bottom: 200px;
-    left: 90%;
+    left: 87%;
     transform: translateX(-70%);
 }
 
@@ -110,21 +110,11 @@ nav ul li a {
     line-height: 0px;
 }
 
-.text-container button {
-    width: 130px;
-    height: 42px;
-    border-radius: 10px;
-    font-family: calibri;
-    font-weight: bold;
-    font-size: 14px;
-    outline: none;
-    margin: 0px 10px;
-}
 
 .text-container {
     position: absolute;
-    left: 13%;
-    top: 42%;
+    left: 5%;
+    top: 35%;
     transform: translate(-13%, -42%);
     margin: 0 11%;
 }
