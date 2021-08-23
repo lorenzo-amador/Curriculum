@@ -285,7 +285,9 @@ button:active {
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     margin-left:10%; 
-   margin-bottom: 2%
+    margin-bottom: 2%;
+position: relative;
+
 
 }
 
@@ -294,7 +296,8 @@ button:active {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 30%;
-    line-height: 295%;
+    line-height: 195%;
+
 }
 
 .Habilidades-2 h2 {
@@ -307,6 +310,21 @@ button:active {
     justify-content: center;
     align-items: center;
     padding: 15px;
+    margin-top: ;
+}
+.central{
+    position:absolute;
+   width: 300px;
+   top: -30px;
+   right:  365px;
+
+
+}
+.unah{
+    position: absolute;
+    width: 160px;
+    top: -90px;
+    left: 399px;
 }
 
 
@@ -915,4 +933,17 @@ footer {
             font-size:12px;
 
         }
+        /* LOGOS FORMACION ACADEMICA */
+        .central{
+           width: 60px;
+           top: -60px;
+           right:  -18px;
+        
+        }
+        .unah{
+            width:35px;
+            top: -136px;
+            left: -4px;
+        }
+        
     }
