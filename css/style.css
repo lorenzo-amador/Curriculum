@@ -3,6 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: poppins;
+    overflow-x: hidden;
 }
 body::-webkit-scrollbar {
    -webkit-appearance: none;
