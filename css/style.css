@@ -278,6 +278,37 @@ button:active {
     padding: 15px;
 }
 
+.Habilidades-2 {
+    width: 80%;
+    height: 270px;
+    background-color: rgba(255, 255, 255, 0.883);
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin-left:10%; 
+
+}
+
+.Habilidades-2 p {
+    color: #000000;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 30%;
+    line-height: 295%;
+}
+
+.Habilidades-2 h2 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+
 .cursos {
     height: 600px;
     background-color: #ffffff;
@@ -682,7 +713,7 @@ footer {
         }
         .Habilidades {
             width: 89%;
-            height: 300px;
+            height: 290px;
             background-color: rgba(0, 0, 0, 0.883);
             box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
             margin: 0px 5%;
@@ -691,7 +722,7 @@ footer {
         }
         .Habilidades p {
             color: #ffffff;
-            font-size: 20px;
+            font-size: 17px;
             font-family: 'Montserrat', sans-serif;
             margin: 0 20%;
         }
@@ -699,12 +730,41 @@ footer {
             color: #ffffff;
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
-            font-size: 22px;
+            font-size: 18px;
             font-style: italic;
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 15px;
+        }
+        .Habilidades-2 {
+            width: 89%;
+            height: 290px;
+            background-color: rgba(255, 255, 255, 0.883);
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+            margin: 0px 5%;
+            border-radius: 15px;
+            box-shadow: 7px 6px 11px 3px rgb(212, 216, 231);
+        }
+        .Habilidades-2 p {
+            color: #000000;
+            font-size: 13px;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0 10%;
+        }
+        .Habilidades-2 h2 {
+            color: #000000;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+            font-style: italic;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+        .Habilidades-2 Progress{
+            height: 30px;
         }
         .acerca-de-mi-container {
             top: 0px;
