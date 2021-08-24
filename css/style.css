@@ -77,9 +77,9 @@ nav ul li a {
 
 .Foto {
     width: 600px;
-    height: 618px;
+    height: 638px;
     position: absolute;
-    bottom: 200px;
+    top: 6.5%;
     left: 87%;
     transform: translateX(-70%);
 }
