@@ -699,13 +699,12 @@ footer {
     .box-5 .button {
         width: 150px;
         height: 35px;
-        background-color: #FFFFFF;
-        border: none;
+        border: 2px solid #fff;
         outline: none;
         text-align: center;
         border-radius: 12px;
         padding-bottom: 4%;
-        color: #000000;
+        color: #ffffff;
         font-weight: 800;
 
     }
@@ -777,7 +776,12 @@ footer {
             line-height: 40px;
             margin: 10px;
             padding: 0px;
+            
         }
+        .acerca-de-mi-container-texto p:nth-child(3){
+            text-align: center;
+
+        } 
         .text-container {
             top: 40%;
             left: 40%;
@@ -852,7 +856,7 @@ footer {
             background-color: rgba(0, 0, 0, 0.883);
             box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
             margin: 0px 5%;
-            border-radius: 15px;
+            border-radius: 5px;
             box-shadow: 7px 6px 11px 3px rgb(212, 216, 231);
         }
         .Habilidades p {
@@ -874,11 +878,11 @@ footer {
         }
         .Habilidades-2 {
             width: 89%;
-            height: 290px;
+            height: 270px;
             background-color: rgba(255, 255, 255, 0.883);
             box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
             margin: 0px 5%;
-            border-radius: 15px;
+            border-radius: 5px;
             box-shadow: 7px 6px 11px 3px rgb(212, 216, 231);
             margin-bottom: 5%;
         }
@@ -887,6 +891,8 @@ footer {
             font-size: 13px;
             font-family: 'Montserrat', sans-serif;
             margin: 0 10%;
+            text-align: center;
+
         }
         .Habilidades-2 h2 {
             color: #000000;
@@ -915,26 +921,34 @@ footer {
             text-align: center;
             margin-bottom: 15px;
         }
-        .cursos-texto {
+        .cursos-texto p:nth-child(1),
+        .cursos-texto p:nth-child(2) {
             width: 100%;
-            /* font-size: 16px; */
-        }
- 
-
+            text-align: center;
+   
+         }
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4, 
+        .box-5 {
+        width: 150px;
+        height: 295px;
+    }
+    
         .box-1 .button,
         .box-2 .button,
         .box-3 .button, 
         .box-4 .button,
         .box-5 .button {
             width: 150px;
-            height: 30px;
-            background-color: #FFFFFF;
-            border: none;
+            height: 35px;
+            border: 2px solid #fff;
             outline: none;
             text-align: center;
             border-radius: 5px;
             padding-bottom: 5%;
-            color: #000000;
+            color: #ffffff;
             font-weight: 800;
         }
         .box-1 p:nth-child(3),
@@ -942,9 +956,9 @@ footer {
         .box-3 p:nth-child(3),
         .box-4 p:nth-child(3),
         .box-5 p:nth-child(3) {
-        /* text-align: justify; */
-        width: 160px;
-        font-size: 17px;
+        text-align: justify;
+        width: 60%;
+        font-size: 15px;
 }
 
         footer p:nth-child(2) {
@@ -956,23 +970,16 @@ footer {
         }
         /* LOGOS FORMACION ACADEMICA */
         .central{
-           /* width: 40px;
-           top: -59.1px;
-           right: 260px; */
+
            display: none;
         
         
         }
         .unah{
-            /* width:35px;
-            top: -108.3px;
-            left: 264px; */
+
             display: none;
         }
-        .Logo-2 img{
-        visibility:visible;
-        margin-left: -10%;
-        }
+
         
     }
   
