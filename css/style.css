@@ -314,16 +314,16 @@ position: relative;
 }
 .central{
     position:absolute;
-   width: 300px;
+   width: 134px;
    top: -30px;
-   right:  365px;
+   right:  420px;
 
 
 }
 .unah{
     position: absolute;
-    width: 160px;
-    top: -90px;
+    width: 110px;
+    top: -95px;
     left: 399px;
 }
 
@@ -936,16 +936,16 @@ footer {
         }
         /* LOGOS FORMACION ACADEMICA */
         .central{
-           width: 60px;
-           top: -60px;
-           right: 230px;
+           width: 40px;
+           top: -59.1px;
+           right: 260px;
         
         
         }
         .unah{
             width:35px;
-            top: -109px;
-            left: 240px;
+            top: -108.3px;
+            left: 264px;
         }
         
     }
