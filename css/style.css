@@ -949,3 +949,17 @@ footer {
         }
         
     }
+    @media(max-width: 750px){.central{
+            width: 60px;
+            top: -56px;
+            right: 220px;
+         
+         
+         }
+         .unah{
+             width:35px;
+             top: -130px;
+             left: 230px;
+         }
+         }
+
