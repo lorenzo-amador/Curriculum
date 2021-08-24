@@ -936,16 +936,18 @@ footer {
         }
         /* LOGOS FORMACION ACADEMICA */
         .central{
-           width: 40px;
+           /* width: 40px;
            top: -59.1px;
-           right: 260px;
+           right: 260px; */
+           display: none;
         
         
         }
         .unah{
-            width:35px;
+            /* width:35px;
             top: -108.3px;
-            left: 264px;
+            left: 264px; */
+            display: none;
         }
         
     }
