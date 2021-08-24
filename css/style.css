@@ -69,6 +69,13 @@ nav ul li a {
     width: 70px;
     height: 70px;
 }
+.Logo-2 img{
+    width: 70px;
+    height: 70px;
+position:absolute;
+top: 1%;
+visibility: collapse;
+}
 
 .active {
     color: #2d2a2a;
@@ -162,7 +169,7 @@ button:active {
 }
 
 .acerca-de-mi-container {
-    width: 80%;
+    width: 90%;
     height: 300px;
     background: #ffffff;
     border-radius: 20px;
@@ -250,12 +257,12 @@ button:active {
 }
 
 .Habilidades {
-    width: 80%;
+    width: 90%;
     height: 270px;
     background-color: rgba(0, 0, 0, 0.883);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    margin-left:10%; 
+    margin-left:5%; 
 
 }
 
@@ -263,7 +270,7 @@ button:active {
     color: #ffffff;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 40%;
+    margin: 0 41%;
 }
 
 .Habilidades h2 {
@@ -279,12 +286,12 @@ button:active {
 }
 
 .Habilidades-2 {
-    width: 80%;
+    width: 90%;
     height: 270px;
     background-color: rgba(255, 255, 255, 0.883);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    margin-left:10%; 
+    margin-left:5%; 
     margin-bottom: 2%;
 position: relative;
 
@@ -293,10 +300,11 @@ position: relative;
 
 .Habilidades-2 p {
     color: #000000;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 30%;
-    line-height: 195%;
+    line-height: 200%;
+    text-align: justify;
 
 }
 
@@ -310,13 +318,13 @@ position: relative;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    margin-top: ;
+
 }
 .central{
     position:absolute;
    width: 134px;
    top: -30px;
-   right:  420px;
+   right:  520px;
 
 
 }
@@ -324,7 +332,7 @@ position: relative;
     position: absolute;
     width: 110px;
     top: -95px;
-    left: 399px;
+    left: 490px;
 }
 
 
@@ -948,6 +956,10 @@ footer {
             top: -108.3px;
             left: 264px; */
             display: none;
+        }
+        .Logo-2 img{
+        visibility:visible;
+        margin-left: -10%;
         }
         
     }
