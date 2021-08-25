@@ -209,7 +209,7 @@ nav a:hover{
    right: 0;
    width:0;
    background:rgb(42, 44, 47);
-   border-left: 3px solid rgba(0, 0, 0, 0.459);
+   border-left: 3px solid rgba(255, 255, 255, 0.459);
    animation: escribir 3s steps(15) infinite ;
 
 }
