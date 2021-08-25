@@ -41,8 +41,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 12px rgba(10, 10, 10, 0.2);
+    background-color:2b2c2c;
     padding: 0px 5%;
     position: fixed;
     z-index: 1;
@@ -57,10 +56,11 @@ nav ul {
     display: none;
 }
 
+
 nav ul li a {
     margin: 30px;
     font-family: myriad pro regular;
-    color: #505050;
+    color:rgb(233, 170, 48);
     font-size: 15px;
     font-weight: 700;
 }
@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .active {
-    color: #2c5ada;
+    color: #f5f5f5;
     font-weight: bold;
     
 }
@@ -130,8 +130,8 @@ nav a:hover{
 
 .descargar-cv-1 {
     
-   color: rgb(255, 255, 255);
-   border: 2px solid #fff;
+   color: rgb(233, 170, 48);
+   border: 2px solid rgb(233, 170, 48);
    width: 8px;
    height: 2px;
    padding: 6px;
@@ -143,8 +143,8 @@ nav a:hover{
 }
 /* SEGUNDO BOTON DE DESCARGA */
 .descargar-cv-2 {
-    color: rgb(0, 0, 0);
-    border: 2px solid #000000;
+    color: rgb(233, 170, 48);
+    border: 2px solid rgb(233, 170, 48);
     width: 8px;
     height: 2px;
     padding: 6px;
@@ -155,13 +155,13 @@ nav a:hover{
  
  }
 .descargar-cv-1:hover {
-   background-color: rgb(255, 255, 255);
-   color: rgb(0, 0, 0);
+   background-color: rgb(233, 170, 48);
+   color: rgb(255, 255, 255);
 
 }
 .descargar-cv-2:hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(252, 252, 252);
+    background-color: rgb(233, 170, 48);
+    color: rgb(255, 255, 255);
 }
 .descargar-cv-1:active,
 .descargar-cv-2:active {
@@ -170,10 +170,9 @@ nav a:hover{
 }
 
 .acerca-de-mi-container {
-    width: 90%;
-    height: 300px;
-    background: #ffffff;
-    border-radius: 20px;
+    width: 100%;
+    height: 360px;
+    background-color: 2b2c2c;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     display: flex;
     margin: -7% auto 20px auto;
@@ -189,27 +188,17 @@ nav a:hover{
 }
 
 .acerca-de-mi-container-texto {
-    width: 600px;
+    width: 700px;
     text-align: justify;
 }
-
-/* .acerca-de-mi-container-texto p:nth-child(1) {
-    color: #403e3e;
-    font-family: myriad pro;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 0px;
-    padding-bottom: 15px;
-} */
-
 
 /* LETRAS ESCRIBIENDOSE */
 .h { 
    position: relative; 
    float:inline-start;
    text-align: center;
-   background: rgb(255, 255, 255);
-   color: rgb(0, 0, 0);
+   background: 2b2c2c;
+   color: rgb(255, 255, 255);
    padding-inline: 2px;
    font-size: 20px;
    font-weight: 800;
@@ -219,7 +208,7 @@ nav a:hover{
    position:absolute;
    right: 0;
    width:0;
-   background: #ffffff;
+   background:rgb(42, 44, 47);
    border-left: 3px solid rgba(0, 0, 0, 0.459);
    animation: escribir 3s steps(15) infinite ;
 
@@ -233,7 +222,7 @@ nav a:hover{
 
 
 .acerca-de-mi-container-texto p:nth-child(2) {
-    color: #3e3d3d;
+    color: bfb9b0;
     font-size: 20px;
     font-family: myriad pro;
     font-weight: bold;
@@ -242,36 +231,29 @@ nav a:hover{
 
 .acerca-de-mi-container-texto p:nth-child(3),
 .acerca-de-mi-container-texto p:nth-child(4) {
-    color: #7e7d7d;
+    color: bfb9b0;
     font-family: calibri;
     font-size: 17px;
 }
 
-.acerca-de-mi-container-texto button {
-    width: 120px;
-    height: 40px;
-    color: #ffffff;
-    outline: none;
-    border: none;
-    font-family: calibri;
-    background-color: #262525;
-}
 
 .Habilidades {
-    width: 90%;
-    height: 270px;
-    background-color: rgba(0, 0, 0, 0.883);
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    margin-left:5%; 
+    width: 100%;
+    height: 360px;
+    background-color: rgb(48, 48, 47); 
+    margin-top: -2%;
+}
+.Habilidades progress{
+    width: 100%;
 
 }
 
 .Habilidades p {
-    color: #ffffff;
+    color: rgb(211, 209, 209);
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 41%;
+    margin: 0 25%;
+    line-height: 40px;
 }
 
 .Habilidades h2 {
@@ -284,33 +266,31 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     padding: 15px;
+    
 }
 
 .Habilidades-2 {
-    width: 90%;
-    height: 270px;
-    background-color: rgba(255, 255, 255, 0.883);
-    border-radius: 10px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    margin-left:5%; 
-    margin-bottom: 2%;
-position: relative;
+    width: 100%;
+    height: 360px;
+    background-color: rgb(43, 44, 44);
+    position: relative;
+    margin-top: -2%;
 
 
 }
 
 .Habilidades-2 p {
-    color: #000000;
+    color:rgb(185, 192, 192);
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 30%;
+    margin: 0% 35%;
     line-height: 200%;
     text-align: justify;
 
 }
 
 .Habilidades-2 h2 {
-    color: #000000;
+    color:rgb(185, 192, 192);
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -319,23 +299,26 @@ position: relative;
     justify-content: center;
     align-items: center;
     padding: 15px;
-
+ 
 }
 .central{
     position:absolute;
-   width: 134px;
-   top: -30px;
-   right:  520px;
+   width: 119px;
+   top: 50%;
+   right: 130%;
 
 
 }
 .unah{
     position: absolute;
     width: 110px;
-    top: -95px;
-    left: 490px;
+    top: -50%;
+    left: 140%;
 }
+.Habilidades-2 progress{
+    width:100%;
 
+}
 
 .cursos {
     height: 600px;
@@ -428,8 +411,8 @@ position: relative;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid rgb(233, 170, 48);
+    color: rgb(233, 170, 48);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -471,12 +454,12 @@ position: relative;
 .box-5 .button {
     width: 150px;
     height: 25px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(233, 170, 48);
     outline:none;
     text-align: center;
     border-radius: 5px;
     padding-top: 3%;
-    color: #ffffff;
+    color: rgb(233, 170, 48);
     font-weight: 900;
 
 }
@@ -485,8 +468,8 @@ position: relative;
 .box-3 .button:hover, 
 .box-4 .button:hover,
 .box-5 .button:hover{
-   background-color: rgb(255, 255, 255);
-   color: #000000;
+   background-color: rgb(233, 170, 48);
+   color: #ffffff;
 } 
 
 
@@ -516,7 +499,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.883);
+    background-color:2b2c2c;
     
 }
 
@@ -781,6 +764,11 @@ footer {
             transform: translate(-50%, -50%);
             width: 80%;
         }
+        .acerca-de-mi-container{
+            width: 200px;
+            margin-top: -10%;
+      
+        }
         .acerca-de-mi-container-texto p:nth-child(2) {
            text-align: justify;
            line-height: 15px;
@@ -788,13 +776,12 @@ footer {
         .descargar-cv-2 {
          margin: 0 10%;
       
-      }
+         }
        
-       }
        .descargar-cv-1 {
         margin: 0 10%;
      
-     }
+        }
         nav ul {
             margin: 0px;
             padding: 0px;
@@ -831,6 +818,8 @@ footer {
             font-family: fontAwesome;
             line-height: 30px;
             z-index: 1;
+            color: #fff;
+            
         }
         
         .toggle.active:before {
@@ -838,28 +827,28 @@ footer {
             position: fixed;
             right: 25px;
             line-height: 0px;
+            background-color:#403e3e ;
         }
         /* FIN BOTON */
         nav.active ul {
             display: flex !important;
         }
         .Habilidades {
-            width: 89%;
-            height: 290px;
-            background-color: rgba(0, 0, 0, 0.883);
-            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-            margin: 0px 5%;
-            border-radius: 5px;
-            box-shadow: 7px 6px 11px 3px rgb(212, 216, 231);
+            width: 100%;
+            height: 350px;
+            background-color: rgb(48, 48, 47); 
+            border-radius: 2px;
+            margin-left: 10px;
+
         }
         .Habilidades p {
-            color: #ffffff;
+            color:rgb(185, 192, 192);
             font-size: 19px;
             font-family: 'Montserrat', sans-serif;
             margin: 0 20%;
         }
         .Habilidades h2 {
-            color: #ffffff;
+            color:rgb(185, 192, 192);
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
             font-size: 18px;
@@ -870,17 +859,14 @@ footer {
             padding: 15px;
         }
         .Habilidades-2 {
-            width: 89%;
+            width: 100%;
             height: 270px;
-            background-color: rgba(255, 255, 255, 0.883);
-            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-            margin: 0px 5%;
-            border-radius: 5px;
-            box-shadow: 7px 6px 11px 3px rgb(212, 216, 231);
-            margin-bottom: 5%;
+            background-color: rgb(43, 44, 44);
+            border-radius: 4px;
+            margin-left: 10px;
         }
         .Habilidades-2 p {
-            color: #000000;
+            color:rgb(185, 192, 192);
             font-size: 13px;
             font-family: 'Montserrat', sans-serif;
             margin: 0 10%;
@@ -888,7 +874,7 @@ footer {
 
         }
         .Habilidades-2 h2 {
-            color: #000000;
+            color:rgb(185, 192, 192);
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
             font-size: 18px;
@@ -927,12 +913,12 @@ footer {
         .box-5 .button {
             width: 150px;
             height: 35px;
-            border: 2px solid #fff;
+            border: 2px solid rgb(233, 170, 48);
             outline: none;
             text-align: center;
             border-radius: 5px;
             padding-bottom: 5%;
-            color: #ffffff;
+            color: rgb(233, 170, 48);
             font-weight: 800;
         }
         .box-1 p:nth-child(3),
@@ -943,7 +929,7 @@ footer {
         text-align: justify;
         width: 60%;
         font-size: 15px;
-}
+        }
 
         footer p:nth-child(2) {
             width: 90%;
@@ -966,5 +952,3 @@ footer {
 
         
     }
-  
-
