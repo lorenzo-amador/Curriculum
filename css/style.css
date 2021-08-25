@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .active {
-    color: #f5f5f5;
+    color: #271f1f;
     font-weight: bold;
     
 }
@@ -596,7 +596,7 @@ footer {
         height: 600px;
      }
     .text-container {
-        top: 5%;
+        top: 25%;
         width: 90%;
     }
 
