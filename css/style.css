@@ -765,8 +765,9 @@ footer {
             width: 80%;
         }
         .acerca-de-mi-container{
-            width: 200px;
+            width: 89%;
             margin-top: -10%;
+            border-radius: 2px;
       
         }
         .acerca-de-mi-container-texto p:nth-child(2) {
@@ -834,11 +835,11 @@ footer {
             display: flex !important;
         }
         .Habilidades {
-            width: 100%;
+            width: 90%;
             height: 350px;
             background-color: rgb(48, 48, 47); 
             border-radius: 2px;
-            margin-left: 10px;
+            margin: -7% 5%;
 
         }
         .Habilidades p {
@@ -859,11 +860,11 @@ footer {
             padding: 15px;
         }
         .Habilidades-2 {
-            width: 100%;
+            width: 90%;
             height: 270px;
             background-color: rgb(43, 44, 44);
-            border-radius: 4px;
-            margin-left: 10px;
+            border-radius: 2px;
+            margin: -7% 5%;
         }
         .Habilidades-2 p {
             color:rgb(185, 192, 192);
