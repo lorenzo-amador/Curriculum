@@ -81,8 +81,8 @@ nav a:hover{
 }
 
 .Foto {
-    width: 600px;
-    height: 638px;
+    width: 45%;
+    height: 62%;
     position: absolute;
     top: 6.5%;
     left: 87%;
@@ -596,7 +596,7 @@ footer {
         height: 600px;
      }
     .text-container {
-        top: 35%;
+        top: 5%;
         width: 90%;
     }
 
