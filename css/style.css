@@ -151,6 +151,7 @@ nav a:hover{
    border-radius: 8px;
    font-weight: 800;
    margin: 0 1%;
+   cursor: pointer;
 
 
 }
@@ -164,6 +165,7 @@ nav a:hover{
     border-radius: 8px;
     font-weight: 800;
     margin: 0 20%;
+    cursor: pointer;
  
  
  }
@@ -470,6 +472,7 @@ progress{
     padding-top: 3%;
     color: rgb(233, 170, 48);
     font-weight: 900;
+    cursor: pointer;
 
 }
 .box-1 .button:hover,
