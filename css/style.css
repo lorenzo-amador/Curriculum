@@ -588,7 +588,7 @@ footer {
         height: 600px;
      }
     .text-container {
-        top: 24vh;
+        top: 30%;
         width: 90%;
     }
 
@@ -633,7 +633,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 15px;
+        padding: 17px;
     
     }
     .Habilidades p {
@@ -731,7 +731,7 @@ footer {
 
         } 
         .text-container {
-            top:255px;
+            top:25%;
             left: 40%;
             transform: translate(-50%, -50%);
             width: 80%;
