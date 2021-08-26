@@ -585,9 +585,9 @@ footer {
 
         display: none;
     }
-    /* section {
-        height: 600px;
-     } */
+    section {
+        height: 500px;
+     } 
     .text-container {
         top: 35%;
         width: 90%;
