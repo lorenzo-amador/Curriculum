@@ -242,10 +242,7 @@ nav a:hover{
     background-color: rgb(48, 48, 47); 
     margin-top: -2%;
 }
-.Habilidades progress{
-    width: 100%;
 
-}
 
 .Habilidades p {
     color: rgb(211, 209, 209);
@@ -592,7 +589,7 @@ footer {
         height: 600px;
      }
     .text-container {
-        top: 200px;
+        top: 35%;
         width: 90%;
     }
 
