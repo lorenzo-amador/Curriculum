@@ -195,7 +195,6 @@ nav a:hover{
 /* LETRAS ESCRIBIENDOSE */
 .h { 
    position: relative; 
-   float:inline-start;
    text-align: center;
    background: 2b2c2c;
    color: rgb(255, 255, 255);
@@ -274,7 +273,7 @@ nav a:hover{
     height: 360px;
     background-color: rgb(43, 44, 44);
     position: relative;
-    margin-top: -2%;
+    margin-top: -3%;
 
 
 }
@@ -593,7 +592,7 @@ footer {
         height: 600px;
      }
     .text-container {
-        top: 25%;
+        top: 200px;
         width: 90%;
     }
 
@@ -626,7 +625,7 @@ footer {
    
     .Habilidades {
         height: 320px;
-        margin-top: -2.5%;
+        margin-top: -3.5%;
  
     }
 
@@ -644,7 +643,7 @@ footer {
     .Habilidades p {
         font-size: 17px;
         font-family: 'Montserrat', sans-serif;
-        margin: 0 40%;
+        margin: 0 20%;
     }
 
     .box-1 .button,
