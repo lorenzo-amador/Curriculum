@@ -81,10 +81,10 @@ nav a:hover{
 }
 
 .Foto {
-    width: 45%;
+    width: 325px;
     height: 62%;
     position: absolute;
-    top: 6.5%;
+    top: 6.2%;
     left: 87%;
     transform: translateX(-70%);
 }
@@ -315,10 +315,7 @@ nav a:hover{
     top: -50%;
     left: 140%;
 }
-.Habilidades-2 progress{
-    width:100%;
 
-}
 
 .cursos {
     height: 600px;
@@ -739,7 +736,7 @@ footer {
 
         } 
         .text-container {
-            top: 40%;
+            top: 25%;
             left: 40%;
             transform: translate(-50%, -50%);
             width: 80%;
