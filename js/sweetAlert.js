@@ -1,6 +1,6 @@
 Swal.fire({
     title: 'Bienvenido',
-    text: 'Tendrá a su disposición mas datos sobre mi',
+    text: 'A continuación tendrá a su disposición mas datos sobre mi',
     icon: 'info',
     confirmButtonText: 'Entiendo',
     width: `50%`,
