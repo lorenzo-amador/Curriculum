@@ -585,9 +585,9 @@ footer {
 
         display: none;
     }
-    section {
+    /* section {
         height: 600px;
-     }
+     } */
     .text-container {
         top: 35%;
         width: 90%;
@@ -732,7 +732,7 @@ footer {
 
         } 
         .text-container {
-            top: 25%;
+            top: 35%;
             left: 40%;
             transform: translate(-50%, -50%);
             width: 80%;
