@@ -18,7 +18,9 @@
 
 </head>
 <body>
+    <span class="ir-arriba icon-arrow-up2"> <i class="fas fa-chevron-up"></i></span>
     <section>
+ 
         <!-- navegacion -->
         <nav>
             <a href="index.html" class="logo"><img src="img/Logo-2.png" alt="logo"></a>
@@ -59,7 +61,7 @@
     <div class="Habilidades">
         <h2>Habilidades Informáticas</h2>
         <p data-aos="fade-up">Excel <i>(55%) </i>  <progress value="50" max="100" ></progress><br> 
-            Word <i>(60%) </i> <progress value="60" max="100"></progress><br> Power Point <i>(40%) </i>
+            Word <i>(60%) </i> <progress value="60" max="100"></progress><br> Power Point Excel <i>(40%) </i>
             <Progress value="30" max="100"></Progress> <br> Desarrollo Web <i>(30%)</i>
             <Progress value="30" max="100"></Progress>
             
@@ -154,9 +156,8 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script
-      
-<!-- BOTON MOVIL -->
+      </script>
+<!-- BOTON MOVIL-->
 
         <script type="text/javascript" src="js/JQuery.js"></script>
             <script type="text/javascript">
@@ -167,6 +168,26 @@
                 })
             })
             </script>
+
+<script>
+
+$(document).ready(function(){
+
+	$('.ir-arriba').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(300);
+		} else {
+			$('.ir-arriba').slideUp(300);
+		}
+	});
+});
+</script>
 
 </body>
 
