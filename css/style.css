@@ -586,10 +586,10 @@ footer {
         display: none;
     }
     section {
-        height: 500px;
+        height: 600px;
      } 
     .text-container {
-        top: 35%;
+        top: 25%;
         width: 90%;
     }
 
