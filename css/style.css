@@ -243,7 +243,6 @@ nav a:hover{
     margin-top: -2%;
 }
 
-
 .Habilidades p {
     color: rgb(211, 209, 209);
     font-size: 17px;
@@ -586,10 +585,10 @@ footer {
         display: none;
     }
     section {
-        height: 400px;
-     } 
+        height: 600px;
+     }
     .text-container {
-        top: 5%;
+        top: 80px;
         width: 90%;
     }
 
@@ -732,7 +731,7 @@ footer {
 
         } 
         .text-container {
-            top: 35%;
+            top:245px;
             left: 40%;
             transform: translate(-50%, -50%);
             width: 80%;
