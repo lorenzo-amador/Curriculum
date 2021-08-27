@@ -50,8 +50,10 @@ section {
     
 }
 /* ALERTA ESTILOS */
-.alerta{
-    width: 10px;
+.titulo-alert{
+    font-family: 'Architects Daughter', cursive;
+    color:rgb(233, 170, 48);
+
 }
 
 
@@ -100,7 +102,7 @@ nav a:hover{
 }
 
 .Foto {
-    width: 290px;
+    width: 300px;
     height: 62%;
     position: absolute;
     top: 6.2%;
