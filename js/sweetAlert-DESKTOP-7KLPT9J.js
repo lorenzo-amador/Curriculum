@@ -8,7 +8,7 @@ Swal.fire({
 	timerProgressBar:true,
 	showConfirmButton:false,
 
-	imageUrl:`img/alerta.png`,
+	// imageUrl:`img/alerta.png`,
 	imageWidth:`20%`,
 	// imageHeight:
 	// imageAlt:
