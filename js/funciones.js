@@ -10,6 +10,10 @@ Swal.fire({
 	imageUrl:`img/alerta.png`,
 	imageWidth:`20%`,
 
+	customClass: {
+		title:`titulo-alert`,
+	}
+
 });
 
 // BOTON ARRIBA
@@ -18,14 +22,14 @@ $(document).ready(function(){
 	$('.ir-arriba').click(function(){
 		$('body, html').animate({
 			scrollTop: '0px'
-		}, 300);
+		}, 900);
 	});
 
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
+			$('.ir-arriba').slideDown(900);
 		} else {
-			$('.ir-arriba').slideUp(300);
+			$('.ir-arriba').slideUp(900);
 		}
 	});
 });
