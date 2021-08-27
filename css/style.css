@@ -1,13 +1,11 @@
+
 body {
     background-color: #faf2f2;
     margin: 0px;
     padding: 0px;
     font-family: poppins;
-
-
-
-    /* PARA QUITAR EL DEZPLAZAMIENTO HORIZONTAL */
-    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
 }
 body::-webkit-scrollbar {
    -webkit-appearance: none;
@@ -15,6 +13,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
+
    
 }
 
@@ -37,24 +36,18 @@ section {
 }
 .ir-arriba {
 	display:none;
-	padding:15px;
+	padding:10px;
     background-color:rgb(233, 170, 48);
 	font-size:25px;
 	color: rgb(48, 48, 47); 
 	cursor:pointer;
 	position: fixed;
-	bottom:20px;
-	right:20px;
-    z-index: 1;
-    
+	bottom:15px;
+	right:15px;
+    z-index: 1; 
     
 }
-/* ALERTA ESTILOS */
-.titulo-alert{
-    font-family: 'Architects Daughter', cursive;
-    color:rgb(233, 170, 48);
 
-}
 
 
 nav {
@@ -78,6 +71,7 @@ nav ul {
 }
 
 
+
 nav ul li a {
     margin: 30px;
     font-family: myriad pro regular;
@@ -86,13 +80,13 @@ nav ul li a {
     font-weight: 700;
 }
 
-.logo img {
+.logo {
     width: 70px;
     height: 70px;
 }
 
 .active {
-    color: #271f1f;
+    color: #f0e8e8;
     font-weight: bold;
     
 }
@@ -220,7 +214,7 @@ nav a:hover{
    position: relative; 
    text-align: center;
    background: 2b2c2c;
-   color: rgb(255, 255, 255);
+   color:#fff;
    padding-inline: 2px;
    font-size: 20px;
    font-weight: 800;
@@ -230,6 +224,7 @@ nav a:hover{
    position:absolute;
    right: 0;
    width:0;
+   height: 25px;
    background:rgb(42, 44, 47);
    border-left: 3px solid rgba(255, 255, 255, 0.459);
    animation: escribir 3s steps(15) infinite ;
@@ -261,7 +256,7 @@ nav a:hover{
 
 .Habilidades {
     width: 100%;
-    height: 360px;
+    height:380px;
     background-color: rgb(48, 48, 47); 
     margin-top: -2%;
 }
@@ -271,12 +266,14 @@ nav a:hover{
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 25%;
-    line-height: 40px;
+    line-height: 20px;
 }
 progress{
     width: 100%;
     border:none;
+    display: block;
 }
+
 
 .Habilidades h2 {
     color: #ffffff;
@@ -287,13 +284,13 @@ progress{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-top: 5%;
     
 }
 
 .Habilidades-2 {
     width: 100%;
-    height: 360px;
+    height: 380px;
     background-color: rgb(43, 44, 44);
     position: relative;
     margin-top: -3%;
@@ -312,7 +309,7 @@ progress{
 }
 
 .Habilidades-2 h2 {
-    color:rgb(185, 192, 192);
+    color:#fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 22px;
@@ -320,12 +317,13 @@ progress{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-top: 5%;
+    
  
 }
 .central{
     position:absolute;
-   width: 119px;
+   width: 112px;
    top: 50%;
    right: 130%;
 
@@ -502,7 +500,9 @@ footer p:nth-child(1) {
     font-size: 30px;
     font-weight: bold;
     color: #ffffff;
-    line-height: 10px;
+    text-decoration: underline rgb(233, 170, 48);
+
+ 
 }
 
 footer p:nth-child(2) {
@@ -513,7 +513,7 @@ footer p:nth-child(2) {
 }
 
 footer {
-    height: 300px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -547,7 +547,7 @@ footer {
 }
 
 .social-icons a:hover {
-    background-color: #000000;
+    background-color: rgb(233, 170, 48);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     transition: all ease 0.5s;
     
@@ -709,10 +709,12 @@ footer {
     .h{font-size: 20px;}
     .acerca-de-mi-container-texto p:nth-child(2) {
         font-size: 10px;
+        
     }
     .acerca-de-mi-container-texto p:nth-child(3),
     .acerca-de-mi-container-texto p:nth-child(4) {
         font-size: 14px;
+        
     }
     .cursos {
         padding: 2% 5% 0px 5%;
@@ -763,11 +765,10 @@ footer {
         .text-container p:nth-child(2) {
             line-height: 40px;
             margin: 10px;
-            padding: 0px;
-            
+            padding: 0px; 
         }
         .acerca-de-mi-container-texto p:nth-child(3){
-            text-align: center;
+            text-align: justify;
 
         } 
         .text-container {
@@ -775,19 +776,21 @@ footer {
             left: 40%;
             transform: translate(-50%, -50%);
             width: 80%;
+    
         }
         .acerca-de-mi-container{
             width: 89%;
             margin-top: -10%;
             border-radius: 2px;
-      
+    
         }
         .acerca-de-mi-container-texto p:nth-child(2) {
            text-align: justify;
            line-height: 15px;
         }
         .descargar-cv-2 {
-         margin: 0 10%;
+         margin: 0% 20%;
+         
       
          }
        
@@ -824,6 +827,12 @@ footer {
         }
         nav ul li a:hover {
             color: #121212;
+        }
+        .active {
+            color: rgb(233, 170, 48);;
+            font-weight: bold;
+            
+            
         }
         /* MENU */
         .toggle:before {
@@ -916,7 +925,7 @@ footer {
         .cursos-texto p:nth-child(1),
         .cursos-texto p:nth-child(2) {
             width: 100%;
-            text-align: center;
+            
    
          }
         .box-1 .button,

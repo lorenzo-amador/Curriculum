@@ -1,14 +1,14 @@
 // SWEET ALERT
 Swal.fire({
 	title: `¡Hola!`,
-	text:`Bienvenido, a continuación tendrá a su disposición más datos acerca de mí`,
-	// background:
+	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
+	background:`rgb(245, 245, 245)`,
 	timer:4000,
-// 	timerProgressBar:true,
 	showConfirmButton:false,
-
 	imageUrl:`img/alerta.png`,
 	imageWidth:`20%`,
+	scrollbarPadding:false,
+
 
 });
 
@@ -18,14 +18,14 @@ $(document).ready(function(){
 	$('.ir-arriba').click(function(){
 		$('body, html').animate({
 			scrollTop: '0px'
-		}, 900);
+		}, 300);
 	});
 
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(900);
+			$('.ir-arriba').slideDown(300);
 		} else {
-			$('.ir-arriba').slideUp(900);
+			$('.ir-arriba').slideUp(300);
 		}
 	});
 });
