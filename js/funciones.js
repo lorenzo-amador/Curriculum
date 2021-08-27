@@ -10,10 +10,6 @@ Swal.fire({
 	imageUrl:`img/alerta.png`,
 	imageWidth:`20%`,
 
-	customClass: {
-		title:`titulo-alert`,
-	}
-
 });
 
 // BOTON ARRIBA
