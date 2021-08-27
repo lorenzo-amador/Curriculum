@@ -572,6 +572,7 @@ footer {
     top: 50%;
     right: 0px;
     transform: translateY(-50%);
+    border: none;
 }
 
 .social a {
@@ -613,6 +614,7 @@ footer {
     section {
         height: 600px;
      }
+     
      .ir-arriba {
         display:none;
         padding:10px;
@@ -760,10 +762,13 @@ footer {
         .Foto {
             display: none;
         }
+
         /* MENU */
         .toggle {
             display: block;
         }
+
+       
         @keyframes escribir {
            from { width: 70% }
            to { width:20% }
@@ -811,7 +816,7 @@ footer {
         nav ul {
             margin: 0px;
             padding: 0px;
-            background-color: #ebeef4;
+            background-color: rgb(43, 44, 44);
             flex-direction: column;
             position: fixed;
             left: 0;
@@ -824,7 +829,7 @@ footer {
             align-items: center;
             z-index: 1;
             display: none;
-            width: 90%;
+            width: 82%;
         }
         nav ul li {
             padding: 10px;
@@ -836,7 +841,7 @@ footer {
             color: #5c5c5c;
         }
         nav ul li a:hover {
-            color: #121212;
+            color: #faf5f5;
         }
         .active {
             color: rgb(233, 170, 48);;
