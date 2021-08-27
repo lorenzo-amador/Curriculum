@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <title>Lorenzo Amador</title>
-    <link rel="shortcut icon" href="../PORTAFOLIO/img/Favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../PORTAFOLIO/img/Logo-2.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Normalize.css">
     <!-- FONTAWESOME -->
@@ -18,9 +18,9 @@
 
 </head>
 <body>
-    <span class="ir-arriba icon-arrow-up2"> <i class="fas fa-chevron-up"></i></span>
+    
     <section>
- 
+        <span class="ir-arriba icon-arrow-up2"> <i class="fas fa-chevron-up"></i></span>
         <!-- navegacion -->
         <nav>
             <a href="index.html" class="logo"><img src="img/Logo-2.png" alt="logo"></a>
@@ -51,11 +51,8 @@
             </div>
             <p>Pasante de la Lic. Contaduria Publica y Finanzas UNAH</p>
             <p>Mi nombre es Lorenzo Amador Rodríguez; tengo 22 años de edad, soy una persona autodidacta que aprovecha al máximo el tiempo que pueda tener disponible, ya sea para poder adquirir nuevas habilidades o para reforzar las que ya poseo. Soy una persona muy enfocada en cada aspecto de las tareas que comienzo; siempre con la mentalidad de finalizarlas lo mejor posible, con ganas de superación y obtención de experiencia para solidificar mis conocimientos y crecer profesionalmente.</p>
-          
-
             <a class="descargar-cv-2" href="Documentos/Curriculum.pdf" data-aos="zoom-in-right"target="_blank" >Descargar CV</a>
         </div>
-       
     </div> 
     <!-- Habilidades -->
     <div class="Habilidades">
@@ -67,7 +64,7 @@
             
         </p>
     </div>
-    <!-- HABILIDADES -->
+    <!-- Formacion Academica -->
     <div class="Habilidades-2" >
         <h2>Formación Academica</h2>
          
@@ -151,6 +148,7 @@
         <a href="https://wa.me/+50498549804/?text=Hola"><i class="fab fa-whatsapp"></i></a>
 
     </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- MOVIMIENTOS -->
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -158,40 +156,10 @@
         AOS.init();
       </script>
 
-<!-- BOTON MOVIL-->
         <script type="text/javascript" src="js/JQuery.js"></script>
-            <script type="text/javascript">
-            $(document).ready(function(){
-                $('.toggle').click(function(){
-                    $('.toggle').toggleClass('active')
-                    $('nav').toggleClass('active')
-                })
-            })
-            </script>
 
-<script>
-// BOTON ARRIBA
-$(document).ready(function(){
-
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 300);
-	});
-
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
-});
-</script>
-
-<!-- SWEETALERT -->
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="js/sweetAlert.js"></script>
+<!-- FUNCIONES -->
+<script src="js/Funciones.js"></script>
 
 </body>
 

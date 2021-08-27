@@ -49,6 +49,12 @@ section {
     
     
 }
+/* ALERTA ESTILOS */
+.alerta{
+    width: 10px;
+}
+
+
 nav {
     display: flex;
     justify-content: space-between;
