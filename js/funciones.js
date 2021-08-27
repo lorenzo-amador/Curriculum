@@ -1,10 +1,10 @@
 // SWEET ALERT
 Swal.fire({
 	title: `¡Hola!`,
-	text:`Bienvenido, A continuación tendrá a su disposición mas datos sobre mi`,
+	text:`Bienvenido, a continuación tendrá a su disposición más datos acerca de mí`,
 	// background:
 	timer:4000,
-	timerProgressBar:true,
+// 	timerProgressBar:true,
 	showConfirmButton:false,
 
 	imageUrl:`img/alerta.png`,
