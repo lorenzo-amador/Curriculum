@@ -27,7 +27,7 @@ a {
 
 section {
     width: 100%;
-    height: 110vh;
+    height: 75vh;
     background-image: url("../img/section.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,8 +94,8 @@ nav a:hover{
 }
 
 .Foto {
-    width: 50vh;
-    height: 100vh;
+    width: 300px;
+    height: 62%;
     position: absolute;
     top: 6.2%;
     left: 87%;
@@ -134,7 +134,7 @@ nav a:hover{
 .text-container {
     position: absolute;
     left: 5%;
-    top: 50%;
+    top: 35%;
     transform: translate(-13%, -42%);
     margin: 0 11%;
 }
@@ -186,7 +186,7 @@ nav a:hover{
 
 .acerca-de-mi-container {
     width: 100%;
-    height: 100vh;
+    height: 360px;
     background-color: 2b2c2c;
     /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); */
     display: flex;
@@ -197,8 +197,8 @@ nav a:hover{
 }
 
 .acerca-de-mi-container img {
-    height: 50vh;
-    border-radius: 5px;
+    height: 280px;
+    border-radius: 10px;
 
 }
 
@@ -248,23 +248,23 @@ nav a:hover{
 .acerca-de-mi-container-texto p:nth-child(4) {
     color: bfb9b0;
     font-family: calibri;
-    font-size: 25px;
+    font-size: 17px;
 }
 
 
 .Habilidades {
     width: 100%;
-    height:100vh;
+    height:380px;
     background-color: rgb(48, 48, 47); 
     margin-top: -2%;
 }
 
 .Habilidades p {
     color: rgb(211, 209, 209);
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 25%;
-    line-height: 70px;
+    line-height: 20px;
 }
 progress{
     width: 100%;
@@ -277,7 +277,7 @@ progress{
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 22px;
     font-style: italic;
     display: flex;
     justify-content: center;
@@ -288,34 +288,20 @@ progress{
 
 .Habilidades-2 {
     width: 100%;
-    height: 100vh;
-    
-    background-size: cover;
-
+    height: 380px;
+    background-color: rgb(43, 44, 44);
     position: relative;
     margin-top: -3%;
-    animation: educacion 10s infinite linear alternate;
-}
 
-@keyframes educacion{
-    0%, 20%{
-        background-image: url(../img/entrada.png);
-    }
-    25%, 50%{
-        background-image: url(../img/Unah-ban.png);
-    }
-    55%, 100%{
-        background-image: url(../img/unah-2.png);
-    }
-    
+
 }
 
 .Habilidades-2 p {
     color:rgb(185, 192, 192);
-    font-size: 18px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0% 30%;
-    line-height: 75px;
+    margin: 0% 35%;
+    line-height: 200%;
     text-align: justify;
 
 }
@@ -324,36 +310,35 @@ progress{
     color:#fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 22px;
     font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20%;
+    padding-top: 5%;
     
  
 }
 .central{
     position:absolute;
-   width: 150px;
+   width: 112px;
    top: 50%;
-   right: 110%;
+   right: 130%;
 
 
 }
 .unah{
     position: absolute;
-    width: 145px;
-    top: -40%;
-    left: 110%;
+    width: 110px;
+    top: -50%;
+    left: 140%;
 }
 
 
 .cursos {
-    height: 100vh;
+    height: 600px;
     background-color: #ffffff;
-    padding: 15% 10% 0px 5%;
-    width: 85%;
+    padding: 2% 10% 0px 10%;
     
 }
 
@@ -376,13 +361,13 @@ progress{
 .cursos-texto p:nth-child(3) {
     font-family: calibri;
     color: #7e7d7d;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
 .cursos-texto {
     
-    margin: 50px 5px;
+    margin: 50px 0px;
 }
 
 .box-container {
@@ -397,7 +382,7 @@ progress{
 .box-4, 
 .box-5 {
     width: 250px;
-    height: 55vh;
+    height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
@@ -742,8 +727,6 @@ footer {
     .cursos {
         padding: 2% 5% 0px 5%;
         height: auto;
-        margin-top: -7%;
-        width: 100%;
     }
     .cursos-texto{
         font-size:auto;
@@ -900,7 +883,6 @@ footer {
             font-size: 19px;
             font-family: 'Montserrat', sans-serif;
             margin: 0 20%;
-            line-height: 25px;
         }
         .Habilidades h2 {
             color:rgb(185, 192, 192);
@@ -926,7 +908,6 @@ footer {
             font-family: 'Montserrat', sans-serif;
             margin: 0 10%;
             text-align: center;
-            line-height: 28px;
 
         }
         .Habilidades-2 h2 {
@@ -938,8 +919,7 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 15px;
-            padding-bottom: 0px;
+            padding: 15px;
         }
     
         
