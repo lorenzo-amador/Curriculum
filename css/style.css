@@ -30,7 +30,7 @@ section {
     height: 75vh;
     background-image: url("../img/section.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: round;
     position: relative;
     background-attachment: fixed;
 }
@@ -293,6 +293,7 @@ progress{
     position: relative;
     margin-top: -3%;
     background-size:cover;
+    background-repeat: round;
     animation: educacion 10s infinite linear alternate;
 }
 
@@ -409,24 +410,29 @@ progress{
 
 .box-1 {
     background-image: url("../img/ofo.png");
+    background-repeat: round;
 }
 
 .box-2 {
     background-image: url("../img/desa.jpg");
+    background-repeat: round;
 
 }
 
 .box-3 {
     background-image: url("../img/in.jpg");
+    background-repeat: round;
     
 }
 .box-4 {
    background-image: url("../img/css.png");
+   background-repeat: round;
    
 
 }
 .box-5 {
    background-image: url("../img/Grafia.jpg");
+   background-repeat: round;
    
 
 }
@@ -911,9 +917,10 @@ footer {
         .Habilidades-2 {
             width: 90%;
             height: 292px;
-            background-color: rgb(43, 44, 44);
+            /* background-color: rgb(43, 44, 44); */
             border-radius: 2px;
             margin: 6.5% 5%;
+
         }
         .Habilidades-2 p {
             color:rgb(185, 192, 192);
