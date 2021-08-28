@@ -292,8 +292,21 @@ progress{
     background-color: rgb(43, 44, 44);
     position: relative;
     margin-top: -3%;
+    background-size:cover;
+    animation: educacion 10s infinite linear alternate;
+}
 
-
+@keyframes educacion{
+    0%, 20%{
+        background-image: url(../img/entrada.png);
+    }
+    25%, 50%{
+        background-image: url(../img/Unah-ban.png);
+    }
+    55%, 100%{
+        background-image: url(../img/unah-2.png);
+    }
+    
 }
 
 .Habilidades-2 p {
@@ -904,7 +917,7 @@ footer {
         }
         .Habilidades-2 p {
             color:rgb(185, 192, 192);
-            font-size: 13px;
+            font-size: 15px;
             font-family: 'Montserrat', sans-serif;
             margin: 0 10%;
             text-align: center;
