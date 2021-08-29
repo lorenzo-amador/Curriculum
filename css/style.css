@@ -37,7 +37,7 @@ section {
 .ir-arriba {
 	display:none;
 	padding:10px;
-    border-radius: 50%;
+    border-radius: 30%;
     background-color:rgb(233, 170, 48);
 	font-size:25px;
 	color: rgb(48, 48, 47); 
@@ -59,6 +59,8 @@ nav {
     position: fixed;
     z-index: 1;
     width: 90%;
+
+
 }
 
 nav ul {
@@ -164,7 +166,7 @@ nav a:hover{
     padding: 6px;
     border-radius: 8px;
     font-weight: 800;
-    margin: 0 20%;
+    margin: 5px 0 0 40%;
     cursor: pointer;
  
  
@@ -198,7 +200,6 @@ nav a:hover{
 
 .acerca-de-mi-container img {
     height: 280px;
-    border-radius: 10px;
 
 }
 
@@ -211,11 +212,10 @@ nav a:hover{
 .h { 
    position: relative; 
    text-align: center;
-   background: 2b2c2c;
    color:#fff;
    padding-inline: 2px;
    font-size: 20px;
-   font-weight: 800;
+   font-weight: 700;
 }
 
 .h span {
@@ -224,20 +224,20 @@ nav a:hover{
    width:0;
    height: 25px;
    background:rgb(42, 44, 47);
-   border-left: 3px solid rgba(255, 255, 255, 0.459);
+   border-left: 2px solid rgba(255, 255, 255, 0.459);
    animation: escribir 3s steps(15) infinite ;
 
 }
 
 @keyframes escribir {
    from { width: 60% }
-   to { width:35% }
+   to { width:38% }
 }
 /* FIN ESCRITURA */
 
 
 .acerca-de-mi-container-texto p:nth-child(2) {
-    color: bfb9b0;
+    color: rgb(233, 170, 48);
     font-size: 20px;
     font-family: myriad pro;
     font-weight: bold;
@@ -517,11 +517,8 @@ footer p {
 footer p:nth-child(1) {
     font-size: 30px;
     font-weight: bold;
-    color: #ffffff;
-    text-decoration: 4px underline rgb(233, 170, 48) ;
-
-
- 
+    /* color: #ffffff; */
+    color: rgb(233, 170, 48);
 }
 
 footer p:nth-child(2) {
@@ -550,7 +547,7 @@ footer {
     align-items: center;
     background-color: #e6e3e3;
     margin: 20px 10px;
-    border-radius: 50%;
+    border-radius: 30%;
     border: none;
 }
 
@@ -579,8 +576,8 @@ footer {
 }
 
 .Autor {
-    color: #ffffff;
-    font-size: 12px;
+    color: rgb(233, 170, 48);
+    font-size: 16px;
     font-weight: 700;
     position: absolute;
     left: 50%;
@@ -607,8 +604,7 @@ footer {
     line-height: 0px;
     background-color: #FFFFFF;
     border:none;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 20%;
+    border-radius: 30%;
 
 }
 
@@ -639,14 +635,8 @@ footer {
      
      .ir-arriba {
         display:none;
-        padding:10px;
-        background-color:rgb(233, 170, 48);
-        font-size:25px;
-        color: rgb(48, 48, 47); 
-        cursor:pointer;
-        position: fixed;
-        bottom:20px;
-        right:20px;
+        bottom:10px;
+        right:10px;
         z-index: 1;
     }
     .text-container {
@@ -775,6 +765,7 @@ footer {
     nav {
         width: 100%;
         height: 50px;
+ 
 
     }
     @media(max-width: 750px) {
@@ -790,6 +781,11 @@ footer {
         /* MENU */
         .toggle {
             display: block;
+        }
+        .ir-arriba {
+            padding:10px;
+            border-radius: 30%;
+            font-size:20px; 
         }
 
        
@@ -824,7 +820,7 @@ footer {
     
         }
         .acerca-de-mi-container-texto p:nth-child(2) {
-           text-align: justify;
+           text-align: center;
            line-height: 15px;
         }
         .descargar-cv-2 {
@@ -840,7 +836,7 @@ footer {
         nav ul {
             margin: 0px;
             padding: 0px;
-            background-color: rgb(43, 44, 44);
+            background-color: rgba(43, 44, 44, 0.938);
             flex-direction: column;
             position: fixed;
             left: 0;
@@ -854,6 +850,8 @@ footer {
             z-index: 1;
             display: none;
             width: 100%;
+     
+            
         }
         nav ul li {
             padding: 10px;
@@ -863,6 +861,7 @@ footer {
             font-size: 1.4em;
             text-transform: uppercase;
             color: #5c5c5c;
+            
         }
         nav ul li a:hover {
             color: #faf5f5;
@@ -881,6 +880,7 @@ footer {
             z-index: 1;
             color:rgb(233, 170, 48);
             font-size: 25px;
+       
             
         }
         
@@ -890,6 +890,8 @@ footer {
             right: 25px;
             line-height: 0px;
             background-color:#403e3e ;
+                 transition:all 0.5s;
+
         }
         /* FIN BOTON */
         nav.active ul {
@@ -967,7 +969,11 @@ footer {
         .cursos-texto p:nth-child(2) {
             width: 100%;
             
-   
+
+         }
+         .cursos-texto p:nth-child(3){
+             width: 95%;
+             text-align: left;
          }
         .box-1 .button,
         .box-2 .button,
@@ -1007,13 +1013,35 @@ footer {
         }
         .Autor{
             font-size:12px;
+            text-align: center;
 
+        }
+        .social {
+            position: fixed;
+            top: 50%;
+            right: 0px;
+            transform: translateY(-50%);
+            border: none;
+        }
+        
+        .social a {
+         
+            width: 40px;
+            height: 40px;
+            border-radius: 30%;
+        
+        }
+  
+        
+        .social i {
+            font-size: 20px;
+    
         }
         /* LOGOS FORMACION ACADEMICA */
         .central{
 
            display: none;
-        
+    
         
         }
         .unah{
