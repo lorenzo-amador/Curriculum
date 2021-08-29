@@ -655,7 +655,7 @@ footer {
      
      .ir-arriba {
         display:none;
-        bottom:10px;
+        bottom:20px;
         right:10px;
         z-index: 1;
     }
@@ -814,9 +814,14 @@ footer {
            to { width:20% }
        }
         .text-container p:nth-child(2) {
-            line-height: 40px;
-            margin: 10px;
+            line-height: 35px;
+            font-size: 38px;
+        }
+        .text-container p:nth-child(1) {
+            line-height: 5px;
+            margin-top:70%;
             padding: 0px; 
+            font-size: 35px;
         }
         .acerca-de-mi-container-texto p:nth-child(3){
             text-align: start;
@@ -870,17 +875,21 @@ footer {
             z-index: 1;
             display: none;
             width: 100%;
+            
      
             
         }
         nav ul li {
             padding: 10px;
+           
         }
         nav ul li a {
             font-family: calibri;
             font-size: 1.4em;
             text-transform: uppercase;
             color: #5c5c5c;
+            border-bottom: 1px solid;
+       
             
         }
         nav ul li a:hover {
