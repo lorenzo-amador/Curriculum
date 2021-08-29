@@ -151,7 +151,7 @@ nav a:hover{
 
 /* PRIMER BOTON DE DESCARGA */
 
-.descargar-cv-1 {
+/* .descargar-cv-1 {
     
    color: rgb(233, 170, 48);
    border: 2px solid rgb(233, 170, 48);
@@ -165,9 +165,9 @@ nav a:hover{
   
 
    
-}
+} */
 /* SEGUNDO BOTON DE DESCARGA */
-.descargar-cv-2 {
+/* .descargar-cv-2 {
     color: rgb(233, 170, 48);
     border: 2px solid rgb(233, 170, 48);
     width: 8px;
@@ -198,7 +198,7 @@ nav a:hover{
 .descargar-cv-2:active {
     transform: scale(1.1);
     color: #ffffff;
-}
+} */
 
 .acerca-de-mi-container {
     width: 100%;
@@ -636,8 +636,200 @@ footer {
 .social i {
     font-size: 20px;
     color: #2B2B2B;
+
+
+
+
+
+
+
+    /* BOTON DE DESCARGA */
+}
+#wrap2 {
+    margin: 20px auto;
+    text-align: center;
 }
 
+.btn-slide2 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 10px;
+    background: #fdfdfd00;
+    margin: 10px;
+    transition: .9s;
+}
+
+.btn-slide2 {
+    border: 2px solid rgb(233, 170, 48);
+}
+
+.btn-slide2:hover {
+    background-color: rgb(233, 170, 48);
+}
+
+.btn-slide2:hover span.circle2 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+
+}
+
+.btn-slide2:hover span.circle2 {
+    color: rgb(233, 170, 48);
+}
+
+ .btn-slide2:hover span.title2 {
+    left: 40px;
+    opacity: 0;
+}
+
+ .btn-slide2:hover span.title-hover2 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide2 span.circle2 {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .9s;
+    border-radius: 50%;
+}
+.fa-download{
+    margin: 11px;
+    color:  rgb(48, 48, 47);
+}
+
+.btn-slide2 span.circle2 {
+    background-color:rgb(233, 170, 48);
+}
+
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.btn-slide2 span.title2,
+  .btn-slide2 span.title-hover2 {
+    color: rgb(233, 170, 48);
+    left: 80px;
+}
+
+.btn-slide2 span.title-hover2 {
+    left: 80px;
+    opacity: 0;
+    color: #fff;
+}
+
+/* SEGUNDO BOTON */
+
+.btn-slide3 {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 10px;
+    background: #fdfdfd00;
+    margin: 10px;
+    transition: .9s;
+}
+
+.btn-slide3 {
+    border: 2px solid rgb(233, 170, 48);
+}
+
+.btn-slide3:hover {
+    background-color: rgb(233, 170, 48);
+}
+
+.btn-slide3:hover span.circle3 {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fdfdfd;
+
+}
+
+.btn-slide3:hover span.circle3 {
+    color: rgb(233, 170, 48);
+}
+
+ .btn-slide3:hover span.title3 {
+    left: 40px;
+    opacity: 0;
+}
+
+ .btn-slide3:hover span.title-hover3 {
+    opacity: 1;
+    left: 40px;
+}
+
+.btn-slide3 span.circle3 {
+    display: block;
+    color: #fff;
+    position: absolute;
+    float: left;
+    margin: 5px;
+    line-height: 42px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    transition: .9s;
+    border-radius: 50%;
+}
+.fa-download{
+    margin: 11px;
+    color:  rgb(48, 48, 47);
+}
+
+.btn-slide3 span.circle3 {
+    background-color:rgb(233, 170, 48);
+}
+
+
+.btn-slide3 span.title3,
+  .btn-slide3 span.title-hover3 {
+    position: absolute;
+    left: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.btn-slide3 span.title3,
+  .btn-slide3 span.title-hover3 {
+    color: rgb(233, 170, 48);
+    left: 80px;
+}
+
+.btn-slide3 span.title-hover3 {
+    left: 80px;
+    opacity: 0;
+    color: #fff;
+}
+/* FIN BOTON DESCARGAR */
 
 
 /* IMAGEN MEDIA */
@@ -841,13 +1033,12 @@ footer {
            text-align: center;
            line-height: 15px;
         }
-        .descargar-cv-2 {
+        /* .descargar-cv-2 {
          margin: 0% 18%;
          
       
-         }
+         } */
        
-      
         nav ul {
             margin: 0px;
             padding: 0px;
