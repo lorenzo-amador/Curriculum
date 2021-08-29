@@ -1000,7 +1000,10 @@ footer {
             border-radius: 30%;
             font-size:20px; 
         }
-
+        .btn-slide3 span.circle3,
+        .btn-slide2 span.circle2{
+          margin-top: 3px;
+        }
        
         @keyframes escribir {
            from { width: 70% }
