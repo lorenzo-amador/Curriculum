@@ -814,30 +814,23 @@ footer {
            to { width:20% }
        }
         .text-container p:nth-child(2) {
-            line-height: 35px;
+            line-height: 30px;
             font-size: 38px;
         }
         .text-container p:nth-child(1) {
-            line-height: 5px;
-            margin-top:70%;
-            padding: 0px; 
             font-size: 35px;
         }
         .acerca-de-mi-container-texto p:nth-child(3){
             text-align: start;
-           
-
         } 
         .text-container {
-            top:30%;
+            top:30vh;
             left: 40%;
             transform: translate(-50%, -50%);
             width: 80%;
     
         }
-        .text-container p:nth-child(2){
-            font-size: 2x;
-        }
+       
         .acerca-de-mi-container{
             width: 89%;
             margin-top: -10%;
@@ -854,10 +847,7 @@ footer {
       
          }
        
-       .descargar-cv-1 {
-        margin: 0 10%;
-     
-        }
+      
         nav ul {
             margin: 0px;
             padding: 0px;
