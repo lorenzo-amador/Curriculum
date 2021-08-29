@@ -37,6 +37,7 @@ section {
 .ir-arriba {
 	display:none;
 	padding:10px;
+    border-radius: 50%;
     background-color:rgb(233, 170, 48);
 	font-size:25px;
 	color: rgb(48, 48, 47); 
@@ -90,22 +91,23 @@ nav ul li a {
 }
 
 nav a:hover{
-    border-bottom: 5px solid rgb(0, 89, 255);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
 }
 
 .Foto {
-    width: 300px;
-    height: 62%;
+    width: 288px;
+    height: 65%;
     position: absolute;
     top: 6.2%;
     left: 87%;
-    transform: translateX(-70%);
+    transform: translateX(-80%);
+ 
 }
 
 .text-container p:nth-child(1) {
     font-family: calibri;
     font-weight: bold;
-    color: #ffffff;
+    color:rgb(233, 170, 48);
     font-size: 30px;
     margin-left: 1px;
 }
@@ -293,8 +295,9 @@ progress{
     position: relative;
     margin-top: -3%;
     background-size:cover;
-    background-repeat: round;
-    animation: educacion 10s infinite linear alternate;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: educacion 8s infinite linear alternate;
 }
 
 @keyframes educacion{
@@ -410,29 +413,29 @@ progress{
 
 .box-1 {
     background-image: url("../img/ofo.png");
-    background-repeat: space;
+    background-position: center;
 }
 
 .box-2 {
     background-image: url("../img/desa.jpg");
-    background-repeat: space;
+    background-position: center;
 
 }
 
 .box-3 {
     background-image: url("../img/in.jpg");
-    background-repeat: space;
+    background-position: center;
     
 }
 .box-4 {
    background-image: url("../img/css.png");
-   background-repeat: space;
+   background-position: center;
    
 
 }
 .box-5 {
    background-image: url("../img/Grafia.jpg");
-   background-repeat: space;
+   background-position: center;
    
 
 }
