@@ -32,7 +32,7 @@ section {
     background-size: cover;
     background-repeat: round;
     position: relative;
-    background-attachment: fixed;
+
 }
 .ir-arriba {
 	display:none;
