@@ -9,7 +9,7 @@ body {
 }
 body::-webkit-scrollbar {
    -webkit-appearance: none;
-   width: 10px;
+   width: 5px;
 }
 
 body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
