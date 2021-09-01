@@ -429,11 +429,12 @@ nav a:hover{
     box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 .Estudios-progreso{
-    margin: 0 35%;
+    margin: 0 36%;
     list-style: none;
 }
 .Estudios-progreso h4{
 color: white;
+text-align: center;
    
 }
 
@@ -441,6 +442,7 @@ color: white;
     height: 100%;
     float: left;
     background: rgb(233, 170, 48);
+   
 }
 .avance{
     width: 73%;
