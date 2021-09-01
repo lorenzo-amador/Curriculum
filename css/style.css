@@ -380,7 +380,7 @@ nav a:hover{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
-    animation: educacion 8s infinite linear alternate;
+    animation: educacion 8s infinite ease;
 }
 
 @keyframes educacion{
@@ -390,7 +390,10 @@ nav a:hover{
     25%, 50%{
         background-image: url(../img/Unah-ban.png);
     }
-    55%, 100%{
+    55%, 70%{
+        background-image: url(../img/unah-3.jpg);
+    }
+    75%, 100%{
         background-image: url(../img/unah-2.png);
     }
     
@@ -402,7 +405,7 @@ nav a:hover{
     font-family: 'Montserrat', sans-serif;
     margin: 0% 35%;
     line-height: 180%;
-    text-align: justify;
+    text-align:center;
 
 }
 
