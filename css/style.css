@@ -54,6 +54,7 @@ section {
     color:#fff;
     transition:ease-out 0.4s;
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 
 nav {
@@ -99,8 +100,11 @@ nav ul li a {
 }
 
 nav a:hover{
-    border-bottom: 1px solid rgb(255, 255, 255);
     transition:all 0.5s;
+    box-shadow: 0 0 15px rgb(233, 170, 48);
+    color: #ffffff;
+ 
+ 
 }
 
 .Foto {
@@ -270,25 +274,88 @@ nav a:hover{
 
 .Habilidades {
     width: 100%;
-    height:380px;
+    height:390px;
     background-color: rgb(35, 36, 36);
     margin-top: -2%;
 }
 
-.Habilidades p {
-    /* color: rgb(211, 209, 209); */
+.Habilidades li {
     color: bfb9b0;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 25%;
-    line-height: 20px;
-}
-progress{
-    width: 100%;
-    border:none;
-    display: block;
+    line-height: 25px;
+    list-style: none;
 }
 
+.barra{
+    background-color: #727680;
+    display: block;
+    height: 9px;
+    border: 2px solid rgb(0,0,0,0.3);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(233, 170, 48);
+}
+
+.barra span{
+    height:10px;
+    float: left;
+    background: rgb(233, 170, 48);
+
+}
+
+.Excel{
+    width: 50%;
+    animation: Excel 2s;
+}
+
+.Word{
+    width: 46%;
+    animation: Word 2s;
+}
+.Powerpoint{
+    width: 40%;
+    animation: Powerpoint 2s;
+}
+.Desarrollo {
+    width: 20%;
+    animation: Desarrollo 2s;
+}
+
+/* ANIMACIONES DE LAS HABILIDADES */
+@keyframes Excel{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes Word{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 46%;
+    }
+}
+@keyframes Powerpoint{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes Desarrollo{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
 
 .Habilidades h2 {
     color: #ffffff;
@@ -300,6 +367,7 @@ progress{
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+    padding-bottom: 0.5%;
     
 }
 
@@ -350,6 +418,48 @@ progress{
     
  
 }
+
+.barra-avance{
+    background-color: #727680;
+    display: block;
+    height: 9px;
+    width: 90%;
+    border: 2px solid rgb(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(233, 170, 48);
+}
+.Estudios-progreso{
+    margin: 0 35%;
+    list-style: none;
+}
+.Estudios-progreso h4{
+color: white;
+   
+}
+
+.barra-avance span{
+    height: 100%;
+    float: left;
+    background: rgb(233, 170, 48);
+}
+.avance{
+    width: 73%;
+    animation: avance 2s;
+}
+
+
+
+
+@keyframes avance{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 73%;
+    }
+}
+
+
 .central{
     position:absolute;
    width: 112px;
@@ -526,6 +636,7 @@ progress{
    color: #ffffff;
    transition:all 0.5s;
    transform: scale(1.2);
+   box-shadow: 0 0 10px rgb(233, 170, 48);
 } 
 
 
@@ -584,7 +695,7 @@ footer {
 
 .social-icons a:hover {
     background-color: rgb(233, 170, 48);
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgb(233, 170, 48);
     transition: all ease 0.5s;
     transform: scale(1.2);
     
@@ -625,7 +736,7 @@ footer {
     padding: 0px;
     line-height: 0px;
     background-color: #faf2f2;
-    border:solid 1px;
+   
     border-radius: 30%;
 
 }
@@ -633,20 +744,17 @@ footer {
 .social a:hover {
     background-color:rgb(233, 170, 48);
     transition: all linear 0.5s;
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 
 .social i {
     font-size: 20px;
-    color: #2B2B2B;
-
-
-
-
-
-
-
-    /* BOTON DE DESCARGA */
+    color: #2B2B2B;   
 }
+
+
+/* BOTON DE DESCARGA */
+
 #wrap2 {
     margin: 20px auto;
     text-align: center;
@@ -671,6 +779,7 @@ footer {
 
 .btn-slide2:hover {
     background-color: rgb(233, 170, 48);
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 
 .btn-slide2:hover span.circle2 {
@@ -682,6 +791,7 @@ footer {
 
 .btn-slide2:hover span.circle2 {
     color: rgb(233, 170, 48);
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 
  .btn-slide2:hover span.title2 {
@@ -762,6 +872,7 @@ footer {
 
 .btn-slide3:hover {
     background-color: rgb(233, 170, 48);
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 
 .btn-slide3:hover span.circle3 {
@@ -834,6 +945,13 @@ footer {
 /* FIN BOTON DESCARGAR */
 
 
+
+
+
+
+
+
+
 /* IMAGEN MEDIA */
 @media(max-width:1000px) {
     * {
@@ -904,7 +1022,7 @@ footer {
         padding: 17px;
     
     }
-    .Habilidades p {
+    .Habilidades li {
         font-size: 17px;
         font-family: 'Montserrat', sans-serif;
         margin: 0 20%;
@@ -979,9 +1097,13 @@ footer {
     nav {
         width: 100%;
         height: 50px;
- 
-
     }
+
+
+
+
+
+
     @media(max-width: 750px) {
         section {
            background-image: url("../img/section.jpg");
@@ -1119,16 +1241,15 @@ footer {
              /* FIN BOTON */
         .Habilidades {
             width: 90%;
-            height: 350px;
+            height: 315px;
             border-radius: 2px;
-            margin: -6% 5%;
+            margin: 6% 5%;
 
         }
-        .Habilidades p {
-            color:rgb(185, 192, 192);
-            font-size: 19px;
-            font-family: 'Montserrat', sans-serif;
-            margin: 0 20%;
+        .Habilidades li {
+  
+            font-size: 15px;
+  
         }
         .Habilidades h2 {
             color:rgb(185, 192, 192);
@@ -1143,10 +1264,10 @@ footer {
         }
         .Habilidades-2 {
             width: 90%;
-            height: 292px;
+            height: 310px;
             /* background-color: rgb(43, 44, 44); */
             border-radius: 2px;
-            margin: 6.5% 5%;
+            margin: -5.5%  5%;
 
         }
         .Habilidades-2 p {
@@ -1155,8 +1276,20 @@ footer {
             font-family: 'Montserrat', sans-serif;
             margin: 0 10%;
             text-align: center;
-
+       
         }
+  
+        .Estudios-progreso{
+            margin: -4% 15%;
+        
+        }
+        .Estudios-progreso h4{
+        line-height: 26px;
+        font-size: 13px;
+ 
+        }
+   
+        
         .Habilidades-2 h2 {
             color:rgb(185, 192, 192);
             font-family: 'Montserrat', sans-serif;
