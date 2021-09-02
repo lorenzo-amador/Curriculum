@@ -15,6 +15,8 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <!-- Animacion -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
     
 </head>
 <body  >
@@ -113,49 +115,52 @@
     <div class="Cursos" id="cursos"  >
         <!--Informacion-cursos-->
         <div class="cursos-texto "Habilidades" data-aos="zoom-in-right">
-            <p>Cursos</p>
+            <p> <i class="fas fa-award"></i> Cursos</p>
             <p>Certificados</p>
             <p>He realizado varios cursos, tales como: Ofimática Básica, Introducción al Desarrollo Web con HTML5, CSS3 y Javascript, además de Inglés Básico y Fotografía. </p>
         </div>
-        <div class="box-container" >
-            <!--cursos-cajas------------->
-            <div class="box-1" data-aos="zoom-in-up">
-                <span>1</span>
-                <p>Ofimatica Basica</p>
-                <p>Curso de ofimatica para conocimientos basicos necesarios para el desarrollo de las actividades laborales y estudiantiles</p>
-                <a href="Documentos/Inforna.pdf" class="button"target="_blank">Ver Certificado</a>
-            </div>
-            <!--2------------->
-            <div class="box-2" data-aos="zoom-in-up">
-                <span>2</span>
-                <p>HTML5</p>
-                <p class="texto-box">Curso para estructurar el cuerpo base de una página web para después hacer uso de esos para agregar funcionalidades con css3 y Javascript<br></p>
+ 
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"> <H2>OFIMÁTICA
+                  </H2> 
+                  <p>
+                    Curso de ofimática para conocimientos básicos necesarios para el desarrollo de las actividades laborales y estudiantiles.
+                </p>
+                    <a href="Documentos/Inforna.pdf" class="button" target="_blank">Ver Certificado</a>
+                     </div>
+                     
+                  <div class="swiper-slide"> <H2>HTML5</H2>
+                   <p>Curso para estructurar el cuerpo base de una página web para después hacer uso de ello y agregar funcionalidades con CSS3 y JavaScript.</p>
+                   
+                    <a href="Documentos/html5.pdf" class="button" target="_blank">Ver Certificado</a>
+                </div>
+                  <div class="swiper-slide"><H2>CSS3 </H2>
+                    <p>Curso para darle estilo a las estructura de la página para darle un realce de calidez y forma a las páginas.
+                    </p>
+                    <a href="Documentos/css3.pdf" class="button"target="_blank" >Ver Certificado</a>
+                </div>
+                  <div class="swiper-slide"> <H2>INGLÉS </H2>
+                    <p>Curso de inglés para poder formular oraciones y aplicarlo a situaciones donde sea necesario, entender conversaciones básicas.</p>
+                    <a href="Documentos/titulo ingles infop.pdf" class="button" target="_blank">Ver Certificado</a>
+                </div>
+                  <div class="swiper-slide"><H2>FOTOGRAFÍA</H2>
+                    <p>Curso de fotografía para tener conocimiento sobre exposición de luz, ángulos y otros factores que intervienen al captar un momento específico.</p>
+                    <a href="Documentos/Fotograph.pdf" class="button"  target="_blank">Ver Certificado</a>
+                </div>
+    
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
 
-                <a href="Documentos/html5.pdf" class="button" target="_blank">Ver Certificado</a>
-            </div>
-            <!-- 4 -->
-            <div class="box-4" data-aos="zoom-in-up">
-                <span>3</span>
-                <p>CSS3</p>
-                <p>Cursos para darle 
-                    estilo a las estructura de la pagina para darle un realce de calidez y forma a las paginas. <br> <br></p>
-                <a href="Documentos/css3.pdf" class="button"target="_blank" >Ver Certificado</a>
-             <!--3------------->    
-            </div>
-            <div class="box-3" data-aos="zoom-in-up">
-                <span>4</span>
-                <p>Inglés Básico</p>
-                <p>Curso de ingles para poder formular oraciones y aplicarlo a situaciones donde sea necesario, entender conversaciones básicas. </p>
-                <a href="Documentos/titulo ingles infop.pdf" target="_blank" class="button"target="_blank">Ver Certificado</a>
-            </div>
-            <div class="box-5" data-aos="zoom-in-up">
-                <span>5</span>
-                <p>Fotografia</p>
-                <p class="texto-box">Curso de fotografía para tener conocimiento sobre exposición de luz, ángulos y otros factores que intervienen al captar un momento específico</p>
-                <a href="Documentos/Fotograph.pdf" target="_blank" class="button"target="_blank">Ver Certificado</a>
-            </div>
-        </div>
-        
+              </div>
     </div>
 
     <footer id="footer">
@@ -190,6 +195,8 @@
     <script>
         AOS.init();
       </script>
+      
+       <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
         <script type="text/javascript" src="js/JQuery.js"></script>
 <script src="js/funciones.js"></script>
