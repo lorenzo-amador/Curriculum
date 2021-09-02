@@ -10,6 +10,7 @@ body {
 body::-webkit-scrollbar {
    -webkit-appearance: none;
    width: 5px;
+ 
 }
 
 body::-webkit-scrollbar-thumb{background-color:rgba(19, 18, 18, 0.76);
@@ -68,7 +69,8 @@ nav {
     position: fixed;
     z-index: 1;
     width: 90%;
-
+    
+ 
 
 }
 
@@ -102,7 +104,7 @@ nav ul li a {
 
 nav a:hover{
     transition:all 0.5s;
-    box-shadow: 0 0 15px rgb(233, 170, 48);
+    text-shadow: 0 0 15px rgb(233, 170, 48);
     color: #ffffff;
  
  
@@ -367,8 +369,10 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 5.5%;
     padding-bottom: 0.5%;
+    text-decoration: 5px underline rgb(233, 170, 48);
+  
     
 }
 
@@ -419,6 +423,10 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     padding-top: 5%;
+    text-decoration: 5px underline rgb(233, 170, 48);
+
+    
+    
     
  
 }
@@ -494,7 +502,7 @@ text-align: center;
     color: #1d1c1c;
     font-size: 30px;
     line-height: 0px;
-    text-decoration: 3px underline rgb(233, 170, 48);
+    text-decoration: 5px underline rgb(233, 170, 48);
 }
 
 .cursos-texto p:nth-child(2) {
@@ -544,28 +552,43 @@ text-align: center;
 .box-1 {
     background-image: url("../img/ofo.png");
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-blend-mode: soft-light;
+
 }
 
 .box-2 {
-    background-image: url("../img/desa.jpg");
+    background-image: url("../img/desa.png");
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-blend-mode: soft-light;
+
 
 }
 
 .box-3 {
     background-image: url("../img/in.jpg");
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    background-blend-mode: soft-light;
+
     
 }
 .box-4 {
    background-image: url("../img/css.png");
    background-position: center;
+   background-color: rgba(0, 0, 0, 0.705);
+   background-blend-mode: soft-light;
+   
    
 
 }
 .box-5 {
    background-image: url("../img/Grafia.jpg");
    background-position: center;
+   background-color: rgba(0, 0, 0, 0.705);
+   background-blend-mode: soft-light;
+   
    
 
 }
@@ -655,6 +678,7 @@ footer p:nth-child(1) {
     font-weight: bold;
     /* color: #ffffff; */
     color: rgb(233, 170, 48);
+    text-decoration: 5px underline rgb(233, 170, 48);
 }
 
 footer p:nth-child(2) {
