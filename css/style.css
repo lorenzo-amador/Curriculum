@@ -930,7 +930,7 @@ footer {
     }
 
     .Habilidades-2 {
-        height: 390px;
+        height: 340px;
 
     }
     .Habilidades-2 p {
@@ -950,7 +950,7 @@ footer {
     }
    
     .Habilidades {
-        height: 320px;
+        height: 340px;
         margin-top: -3.5%;
  
     }
@@ -1185,17 +1185,19 @@ footer {
             z-index: 1;
             color:rgb(233, 170, 48);
             font-size: 25px;
+            animation: ease 1s;
        
         }
 
 
         
         .toggle.active:before {
-            content: '\f00d';
+            content: '\f550';
             position: fixed;
             right: 25px;
             line-height: 0px;
             background-color:#403e3e ;
+   
   
 
         }
@@ -1229,7 +1231,7 @@ footer {
         }
         .Habilidades-2 {
             width: 90%;
-            height: 320px;
+            height: 340px;
             border-radius: 2px;
             margin: -5.5%  5%;
 
@@ -1326,7 +1328,7 @@ footer {
         }
     }
 
-    @media(max-width: 320px){
+    @media(max-width: 370px){
 
         section {
             background-image: url("../img/section.webp");
@@ -1342,7 +1344,7 @@ footer {
           
             .Habilidades-2 {
                 width: 90%;
-                height: 380px;
+                height: 410px;
                 border-radius: 2px;
                 margin: -5.5%  5%;
     
