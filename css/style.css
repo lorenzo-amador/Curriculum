@@ -1307,9 +1307,10 @@ footer {
         font-family: 'Montserrat', sans-serif;
          position: absolute;
          width: 60%;
-         top: 40%;
+         top: 32%;
          font-size: 16px;
          line-height: 20px;
+         font-weight: normal;
         }
 
         .button {
