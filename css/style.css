@@ -69,9 +69,9 @@ nav {
     z-index: 1;
     width: 90%;
     
- 
-
 }
+
+
 
 nav ul {
     display: flex;
@@ -120,7 +120,7 @@ nav a:hover{
 }
 
 .text-container p:nth-child(1) {
-    font-family: calibri;
+    font-family: 'Lemonada', cursive;
     font-weight: bold;
     color:rgb(233, 170, 48);
     font-size: 30px;
@@ -128,11 +128,11 @@ nav a:hover{
 }
 
 .text-container p:nth-child(2) {
-    font-family: calibri;
+    font-family: 'Lemonada', cursive;
     font-weight: bold;
     letter-spacing: 1px;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .text-container p:nth-child(3) {
@@ -341,7 +341,7 @@ nav a:hover{
         background-image: url(../img/Unah-ban.webp);
     }
     55%, 70%{
-        background-image: url(../img/unah-3.jpg);
+        background-image: url(../img/unah-3.webp);
     }
     75%, 100%{
         background-image: url(../img/unah-2.webp);
@@ -443,16 +443,11 @@ text-align: center;
     font-size: 22px;
     line-height: 0px;
     text-align: center;
+    font-style: italic;
 
 }
 
-.cursos-texto p:nth-child(2) {
-    font-family: calibri;
-    font-weight: bold;
-    color: #3e3d3d;
-    font-size: 15px;
-    line-height: 5px;
-}
+
 
 .cursos-texto p:nth-child(3) {
     font-family: calibri;
@@ -528,7 +523,7 @@ text-align: center;
 }
 
 .swiper-slide:nth-child(4){
-    background-image: url(../img/in.jpg);
+    background-image: url(../img/in.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -642,12 +637,12 @@ footer {
 
 .Autor {
     color: rgb(233, 170, 48);
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 15px;
     position: absolute;
     left: 50%;
     bottom: 10px;
     transform: translateX(-50%);
+    font-family: 'Lemonada', cursive;
 }
 
 .social {

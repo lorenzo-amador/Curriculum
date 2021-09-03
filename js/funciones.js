@@ -2,12 +2,14 @@
 Swal.fire({
 	title: `¡Hola!`,
 	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
-	background:`rgb(245, 245, 245)`,
 	timer:4000,
 	showConfirmButton:false,
-	imageUrl:`img/alerta.png`,
+	imageUrl:`img/alerta.webp`,
 	imageWidth:`20%`,
 	scrollbarPadding:false,
+	
+	
+		
 
 
 });
