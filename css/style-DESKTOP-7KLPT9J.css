@@ -1,5 +1,4 @@
 
-
 body {
     background-color: #F6F6F6;
     margin: 0px;
@@ -431,32 +430,23 @@ font-weight: 500;
 .central{
     position:absolute;
    width: 112px;
-   right: 75%;
+   top: 11%;
+   right: 130%;
 
 
 }
 .unah{
     position: absolute;
     width: 110px;
-    left: 75%;
+    left: 120%;
 }
 
 
 .cursos {
-    height: 520px;
+    height: 600px;
     background-color: #F6F6F6;
-    padding: 0% 10% 0px 10%;
+    padding: 2% 10% 0px 10%;
     
-}
-.cursos-texto h2{
-    color: #141414;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 22px;
-    font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cursos-texto p:nth-child(1) {
@@ -480,6 +470,7 @@ font-weight: 500;
 }
 
 .cursos-texto {
+    
     margin: 50px 0px;
 }
 
@@ -977,8 +968,8 @@ footer {
     }
    
     .Habilidades {
-        height: 330px;
-        margin-top: -1.9%;
+        height: 340px;
+        margin-top: -1.7%;
  
     }
 
@@ -1034,7 +1025,7 @@ footer {
         
     }
     .cursos {
-        padding: 0 5% 0px 5%;
+        padding: 2% 5% 0px 5%;
         height: auto;
     }
     .cursos-texto{
