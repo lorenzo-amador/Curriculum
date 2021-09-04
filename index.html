@@ -180,17 +180,45 @@
         <a href="https://wa.me/+50498549804/?text=Hola"><i class="fab fa-whatsapp"></i></a>
 
     </div>
+
+    <!-- Botton-responsive -->
+    <script type="text/javascript" src="js/JQuery.js"></script>
+    <script>
+        
+        // BOTON TOGGLE
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+    <!-- fin botton-responsibe -->
    
     <!-- MOVIMIENTOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
-       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-      
-       <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-        <script type="text/javascript" src="js/JQuery.js"></script>
+        <!-- sweetalert -->
+       <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+       <script>
+
+    Swal.fire({
+	title: `¡Hola!`,
+	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
+	timer:4000,
+	showConfirmButton:false,
+	imageUrl:`img/alerta.webp`,
+	imageWidth:`20%`,
+	scrollbarPadding:false,
+});
+       </script>
+  <!-- fin sweetalert -->
+
+        
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script src="js/funciones.js"></script>
 </body>
 </html>
