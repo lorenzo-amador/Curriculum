@@ -155,6 +155,7 @@ nav a:hover{
     top: 35%;
     transform: translate(-13%, -42%);
     margin: 0 11%;
+ 
 }
 
 .acerca-de-mi-container {
@@ -227,7 +228,7 @@ nav a:hover{
 
 .Habilidades {
     width: 100%;
-    height:390px;
+    height:auto;
     background-color: rgb(35, 36, 36);
     margin-top: -2%;
 }
@@ -240,7 +241,10 @@ nav a:hover{
     line-height: 25px;
     list-style: none;
     font-weight: 500;
+}
 
+.Habilidades li:nth-child(5){
+    padding-bottom:30px;
 }
 
 .barra{
@@ -914,7 +918,13 @@ footer {
 /* FIN BOTON DESCARGAR */
 
 
+@media(max-width:1024px){
 
+    .text-container p:nth-child(2) {
+        font-size: 33.5px;
+    }
+    
+}
 
 
 
@@ -1491,6 +1501,10 @@ footer {
                 background-repeat: no-repeat;
                 background-size: cover;
 
+            }
+
+            .Habilidades{
+                margin-top: -1.9%;
             }
             
     }
