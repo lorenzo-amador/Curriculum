@@ -66,7 +66,7 @@ nav {
     background-color:2b2c2c;
     padding: 0px 5%;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     width: 90%;
     
 }
@@ -238,6 +238,8 @@ nav a:hover{
     margin: 0 25%;
     line-height: 25px;
     list-style: none;
+    font-weight: 500;
+
 }
 
 .barra{
@@ -260,19 +262,23 @@ nav a:hover{
 .Excel{
     width: 50%;
     animation: Excel 2s;
+ font-weight: 500;
 }
 
 .Word{
     width: 46%;
-    animation: Word 2s;
+    animation: Word 2s;   
+     font-weight: 500;
 }
 .Powerpoint{
     width: 40%;
-    animation: Powerpoint 2s;
+    animation: Powerpoint 2s;  
+      font-weight: 500;
 }
 .Desarrollo {
     width: 20%;
-    animation: Desarrollo 2s;
+    animation: Desarrollo 2s; 
+       font-weight: 500;
 }
 
 /* ANIMACIONES DE LAS HABILIDADES */
@@ -357,6 +363,7 @@ nav a:hover{
     margin: 0% 35%;
     line-height: 180%;
     text-align:center;
+    font-weight: 500;
 
 }
 
@@ -386,11 +393,13 @@ nav a:hover{
     list-style: none;
     padding-bottom: 10px;
     line-height: 45px;
+  
 }
 .Estudios-progreso h4{
 color: white;
 text-align: center;
 font-size: 17px; 
+font-weight: 500;
    
 }
 
@@ -468,6 +477,7 @@ font-size: 17px;
 .swiper {
     width: 100%;
     height: 380px;
+    z-index: 0;
    
   }
 
@@ -489,12 +499,13 @@ font-size: 17px;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
  position: absolute;
- width: 25%;
+ width: 40%;
  color: rgb(255, 255, 255);
  top: 35%;
- font-size: 19px;
+ font-size: auto;
  text-align: center;
- line-height: 20px;
+ line-height: 30px;
+ font-weight: 500;
 }
 .swiper-slide:nth-child(1){
     background-image: url(../img/ofo.webp);
@@ -644,7 +655,7 @@ footer {
 
 .Autor {
     color: rgb(233, 170, 48);
-    font-size: 15px;
+    font-size:auto;
     position: absolute;
     left: 50%;
     bottom: 10px;
@@ -1040,6 +1051,7 @@ footer {
         margin-bottom: 12px; 
         margin-top: -5px;
 
+
     }
     .button {
         width: 160px;
@@ -1058,6 +1070,7 @@ footer {
      font-size: 19px;
      text-align: center;
      line-height: 20px;
+     font-weight: 500;
     }
 
     .logo img {
@@ -1259,7 +1272,6 @@ footer {
   
         }
         .Habilidades h2 {
-
             font-family: 'Montserrat', sans-serif;
             font-weight: bold;
             font-size: 18px;
@@ -1340,10 +1352,11 @@ footer {
         font-family: 'Montserrat', sans-serif;
          position: absolute;
          width: 60%;
-         top: 32%;
-         font-size: 16px;
+         top:auto;
          line-height: 20px;
-         font-weight: normal;
+         font-weight: 500;
+         font-size: 16px;
+         padding-top: 15px;
         }
 
         .button {
