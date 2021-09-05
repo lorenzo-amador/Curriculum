@@ -64,7 +64,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    background-color:2b2c2c;
+    /* background-color:2b2c2c; */
+    background: #232424;  
+    background: -webkit-linear-gradient(to right, #434343, #232424); 
+    background: linear-gradient(to right, #434343, #232424); 
     padding: 0px 5%;
     position: fixed;
     z-index: 100;
