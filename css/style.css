@@ -1115,7 +1115,12 @@ footer {
          nav ul {
             margin: 0px;
             padding: 0px;
-            background-color: rgba(43, 44, 44, 0.979);
+            /* background-color: rgba(43, 44, 44, 0.979); */
+            background: #232424;  
+            background: -webkit-linear-gradient(to right, #434343, #232424); 
+            background: linear-gradient(to right, #434343, #232424); 
+            
+             
             flex-direction: column;
             position: fixed;
             left: 0;
