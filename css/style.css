@@ -940,6 +940,10 @@ footer {
 
         display: none;
     }
+    .logo{
+        margin: 0 auto;
+        }
+        
     section {
         height: 75vh;
      }
@@ -1196,6 +1200,9 @@ footer {
         }
         .Foto {
             display: none;
+        }
+        .logo{
+        margin: 0 auto;
         }
 
         /* MENU */
