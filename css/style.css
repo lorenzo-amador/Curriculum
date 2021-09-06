@@ -993,7 +993,7 @@ footer {
     }
    
     .Habilidades {
-        height: 330px;
+        height: auto;
         margin-top: -1.9%;
  
     }
