@@ -66,8 +66,8 @@ nav {
     height: 70px;
     /* background-color:2b2c2c; */
     background: #232424;  
-    background: -webkit-linear-gradient(to left, #434343, #232424); 
-    background: linear-gradient(to left, #434343, #232424); 
+    background: -webkit-linear-gradient(to right, #434343, #232424); 
+    background: linear-gradient(to right, #434343, #232424); 
     padding: 0px 5%;
     position: fixed;
     z-index: 100;
@@ -95,8 +95,8 @@ nav ul li a {
 }
 
 .logo {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
 
 .active {
@@ -107,7 +107,7 @@ nav ul li a {
 
 nav a:hover{
     transition:all 0.5s;
-    text-shadow: 0 0 20px rgb(233, 170, 48);
+    text-shadow: 0 0 15px rgb(233, 170, 48);
     color: #ffffff;
  
  
@@ -230,10 +230,9 @@ nav a:hover{
 
 
 .Habilidades {
-    width: auto;
+    width: 100%;
     height:auto;
-    /* background-color: rgb(35, 36, 36); */
-    background: #2b2c2c;  
+    background-color: rgb(35, 36, 36);
     margin-top: -2%;
 }
 
@@ -242,7 +241,7 @@ nav a:hover{
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     margin: 0 25%;
-    line-height: 30px;
+    line-height: 25px;
     list-style: none;
     font-weight: 500;
 }
@@ -254,13 +253,15 @@ nav a:hover{
 .barra{
     background-color: #727680;
     display: block;
-    height:18px;
+    height: 9px;
+    border: 2px solid rgb(0,0,0,0.3);
+    border-radius: 4px;
     overflow: hidden;
-
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 
 .barra span{
-    height:100%;
+    height:10px;
     float: left;
     background: rgb(233, 170, 48);
 
@@ -268,23 +269,23 @@ nav a:hover{
 
 .Excel{
     width: 50%;
-    animation: Excel 10s;
+    animation: Excel 2s;
  font-weight: 500;
 }
 
 .Word{
     width: 46%;
-    animation: Word 10s;   
+    animation: Word 2s;   
      font-weight: 500;
 }
 .Powerpoint{
     width: 40%;
-    animation: Powerpoint 10s;  
+    animation: Powerpoint 2s;  
       font-weight: 500;
 }
 .Desarrollo {
     width: 20%;
-    animation: Desarrollo 10s; 
+    animation: Desarrollo 2s; 
        font-weight: 500;
 }
 
@@ -389,10 +390,11 @@ nav a:hover{
 .barra-avance{
     background-color: #727680;
     display: block;
-    height: 16px;
-    width: 70%;
-    margin:0 auto;
-
+    height: 9px;
+    width: 90%;
+    border: 2px solid rgb(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(233, 170, 48);
 }
 .Estudios-progreso{
     margin: 0 36%;
@@ -417,7 +419,7 @@ font-weight: 500;
 }
 .avance{
     width: 73%;
-    animation: avance 15s;
+    animation: avance 2s;
 }
 
 
@@ -989,7 +991,7 @@ footer {
     }
    
     .Habilidades {
-        height: auto;
+        height: 330px;
         margin-top: -1.9%;
  
     }
@@ -1114,39 +1116,20 @@ footer {
          footer p:nth-child(1) {
             font-size: 20px;
          }
-         nav ul li {
-            padding: 10px;
-        
-
-           
-        }
-        nav ul li a {
-            font-size: 1.4em;
-            text-transform: uppercase;
-            color: #d4d1d1;
-            
-            
-     
-       
- 
-        }
-        nav ul li a:hover {
-            color: #faf5f5;
-           
-        
-        }
-
          nav ul {
-            background-image: url(../img/nav.webp);
-            background-size: cover;
-            background-repeat: no-repeat;
             margin: 0px;
             padding: 0px;
+            /* background-color: rgba(43, 44, 44, 0.979); */
+            background: #232424;  
+            background: -webkit-linear-gradient(to right, #434343, #232424); 
+            background: linear-gradient(to right, #434343, #232424); 
+            
+             
             flex-direction: column;
             position: fixed;
             left: 0;
             top: 0;
-            width: 300px;
+            width: 70%;
             height: 100vh;
             box-sizing: border-box;
             display: flex;
@@ -1154,10 +1137,26 @@ footer {
             align-items: center;
             z-index: 1;
             display: none;
-
-         
         }
+        nav ul li {
+            padding: 10px;
+            transition:all 0.5s;
 
+           
+        }
+        nav ul li a {
+            font-family: calibri;
+            font-size: 1.4em;
+            text-transform: uppercase;
+            color: #5c5c5c;
+            border-bottom: 1px solid;
+ 
+        }
+        nav ul li a:hover {
+            color: #faf5f5;
+           
+        
+        }
         .active {
             color: rgb(233, 170, 48);
             font-weight: bold; 
@@ -1256,6 +1255,13 @@ footer {
         }
 
 
+        .acerca-de-mi-container{
+            width: 89%;
+            margin-top: -10%;
+            border-radius: 2px;
+            height: 300px;
+    
+        }
         .acerca-de-mi-container-texto p:nth-child(2) {
            text-align: center;
            line-height: 15px;
@@ -1283,7 +1289,10 @@ footer {
 
              /* FIN BOTON */
         .Habilidades {
-            margin: 6% 0;
+            width: 90%;
+            height: 315px;
+            border-radius: 2px;
+            margin: 6% 5%;
 
         }
         .Habilidades li {
@@ -1302,8 +1311,10 @@ footer {
             padding: 15px;
         }
         .Habilidades-2 {
+            width: 90%;
             height: auto;
-            margin: -6.5%  0;
+            border-radius: 2px;
+            margin: -6.5%  5%;
 
         }
         .Habilidades-2 p {
@@ -1315,7 +1326,7 @@ footer {
  
 
         .Estudios-progreso{
-            margin: -5% 20%;
+            margin: -5% 19%;
             text-align: center;
             padding-top: 10px;
 
@@ -1341,6 +1352,7 @@ footer {
         .acerca-de-mi-container {
             top: 0px;
             flex-direction: column;
+            width: 90%;
             height: auto;
             padding: 30px 0px;
             align-items: center;
@@ -1427,9 +1439,10 @@ footer {
         }
 
             .Habilidades-2 {
+                width: 90%;
                 height: 410px;
                 border-radius: 2px;
-                margin: -7%  0;
+                margin: -5.5%  5%;
     
             }
 
