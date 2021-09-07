@@ -1,7 +1,7 @@
 Swal.fire({
 	title: `¡Hola!`,
 	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
-	timer:4000,
+	timer:2500,
 	showConfirmButton:false,
 	imageUrl:`img/alerta.webp`,
 	imageWidth:`20%`,
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 // SWIPER 
  var swiper = new Swiper('.swiper', {
-      spaceBetween: 30,
+      spaceBetween: 0,
       centeredSlides: true,
       autoplay: {
         delay: 2500,
