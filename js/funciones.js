@@ -15,14 +15,14 @@ $(document).ready(function(){
 	$('.ir-arriba').click(function(){
 		$('body, html').animate({
 			scrollTop: '0px'
-		}, 600);
+		}, 8000);
 	});
 
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(600);
+			$('.ir-arriba').slideDown(8000);
 		} else {
-			$('.ir-arriba').slideUp(600);
+			$('.ir-arriba').slideUp(5000);
 		}
 	});
 });
