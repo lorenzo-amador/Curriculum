@@ -1,7 +1,7 @@
 Swal.fire({
 	title: `¡Hola!`,
 	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
-	timer:2500,
+	timer:2000,
 	showConfirmButton:false,
 	imageUrl:`img/alerta.webp`,
 	imageWidth:`20%`,
@@ -19,7 +19,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		if( $(this).scrollTop() > 4px ){
+		if( $(this).scrollTop() > 300px ){
 			$('.ir-arriba').slideDown(500);
 		} else {
 			$('.ir-arriba').slideUp(500);
