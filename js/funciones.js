@@ -19,7 +19,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		if( $(this).scrollTop() > 500 ){
+		if( $(this).scrollTop() > 400 ){
 			$('.ir-arriba').slideDown(300);
 		} else {
 			$('.ir-arriba').slideUp(300);
