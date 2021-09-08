@@ -1,7 +1,7 @@
 Swal.fire({
 	title: `¡Hola!`,
 	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
-	timer:2000,
+	timer:2500,
 	showConfirmButton:false,
 	imageUrl:`img/alerta.webp`,
 	imageWidth:`20%`,
@@ -15,14 +15,14 @@ $(document).ready(function(){
 	$('.ir-arriba').click(function(){
 		$('body, html').animate({
 			scrollTop: '0px'
-		}, 500);
+		}, 300);
 	});
 
 	$(window).scroll(function(){
-		if( $(this).scrollTop() > 300px ){
-			$('.ir-arriba').slideDown(500);
+		if( $(this).scrollTop() > 0 ){
+			$('.ir-arriba').slideDown(300);
 		} else {
-			$('.ir-arriba').slideUp(500);
+			$('.ir-arriba').slideUp(300);
 		}
 	});
 });
