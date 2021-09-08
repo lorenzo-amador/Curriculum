@@ -20,9 +20,9 @@ $(document).ready(function(){
 
 	$(window).scroll(function(){
 		if( $(this).scrollTop() > 500 ){
-			$('.ir-arriba').slideDown(800);
+			$('.ir-arriba').slideDown(500);
 		} else {
-			$('.ir-arriba').slideUp(800);
+			$('.ir-arriba').slideUp(500);
 		}
 	});
 });
