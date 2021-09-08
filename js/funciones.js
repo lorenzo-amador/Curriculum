@@ -1,7 +1,7 @@
 Swal.fire({
 	title: `¡Hola!`,
 	text:`Bienvenido, a continuación tendrá a su disposición mas datos sobre mi`,
-	timer:2500,
+	timer:2000,
 	showConfirmButton:false,
 	imageUrl:`img/alerta.webp`,
 	imageWidth:`20%`,
