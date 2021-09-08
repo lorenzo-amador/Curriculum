@@ -19,10 +19,10 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(500);
+		if( $(this).scrollTop() > 500 ){
+			$('.ir-arriba').slideDown(800);
 		} else {
-			$('.ir-arriba').slideUp(500);
+			$('.ir-arriba').slideUp(800);
 		}
 	});
 });
