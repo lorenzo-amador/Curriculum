@@ -971,6 +971,11 @@ footer {
         top: 30%;
         width: 90%;
     }
+    .logo {
+        width: auto;
+       height: 46px;
+    
+    }
   
 
     .text-container p:nth-child(2){
@@ -1204,11 +1209,10 @@ footer {
       
         }
         .img-footer{
-            width: 120px;
-            height: 90px;
+            width:90px;
+            height: 50px;
         
         }
-    
 
 
     @media(max-width: 768px) {
@@ -1220,7 +1224,7 @@ footer {
         .Foto {
             display: none;
         }
-
+ 
 
         /* MENU */
         .toggle {
@@ -1403,10 +1407,11 @@ footer {
          }
     
          .img-footer{
-            width: 100px;
-            height: 75px;
+            width: auto;
+            height: 16%;
         
         }
+
         footer p:nth-child(2) {
             width: 90%;
             font-size: 15px;
@@ -1525,6 +1530,11 @@ footer {
             .Habilidades{
                 margin-top: -1.9%;
             }
+            .img-footer{
+                width: auto;
+                height: 11%;
+            
+            
             
     }
 
