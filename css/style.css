@@ -352,8 +352,10 @@ nav a:hover{
     margin-top: -3%;
     background-size:cover;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    background-position: center;
     animation: educacion 15s infinite step-end;
+   animation-delay: 3ms;
+   
 }
 
 @keyframes educacion{
