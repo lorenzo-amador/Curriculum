@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #F6F6F6;
+    background: #2b2c2c;  
     margin: 0px;
     padding: 0px;
     font-family: poppins;
@@ -459,9 +459,10 @@ font-weight: 500;
 
 
 .cursos {
-    height: 520px;
+    height: 580px;
     background-color: #F6F6F6;
     padding: 0% 10% 0px 10%;
+    padding-top: 1px;
     
 }
 .cursos-texto h2{
@@ -941,6 +942,14 @@ footer {
     .text-container p:nth-child(2) {
         font-size: 33.5px;
     }
+    .cursos {
+        padding: 0 5% 0px 5%;
+        padding-top: 1px;
+        
+    }
+    .cursos-texto{
+        font-size:auto;
+    }
     
 }
 
@@ -1069,7 +1078,8 @@ footer {
     }
     .cursos {
         padding: 0 5% 0px 5%;
-        height: auto;
+        padding-top: 1px;
+        
     }
     .cursos-texto{
         font-size:auto;
