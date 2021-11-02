@@ -1,3 +1,5 @@
+
+
 body {
     background: #2b2c2c;  
     margin: 0px;
@@ -124,7 +126,7 @@ nav a:hover{
     width: 280px;
     height: 60%;
     position: absolute;
-    top: 8.2%;
+    top: 7.2%;
     left: 87%;
     transform: translateX(-80%);
  
@@ -181,7 +183,7 @@ nav a:hover{
 
 .acerca-de-mi-container img {
     height: 380px;
-    width: auto;
+    width: 360px;
 
 }
 
