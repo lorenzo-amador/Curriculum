@@ -305,18 +305,18 @@ nav a:hover{
 }
 
 .Excel{
-    width: 50%;
+    width: 45%;
     animation: Excel 10s;
  font-weight: 500;
 }
 
 .Word{
-    width: 46%;
+    width: 42%;
     animation: Word 10s;   
      font-weight: 500;
 }
 .Powerpoint{
-    width: 40%;
+    width: 20%;
     animation: Powerpoint 10s;  
       font-weight: 500;
 }
@@ -332,7 +332,7 @@ nav a:hover{
         width: 0%;
     }
     100%{
-        width: 50%;
+        width: 45%;
     }
 }
 @keyframes Word{
@@ -340,7 +340,7 @@ nav a:hover{
         width: 0%;
     }
     100%{
-        width: 46%;
+        width: 42%;
     }
 }
 @keyframes Powerpoint{
@@ -348,7 +348,7 @@ nav a:hover{
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 20%;
     }
 }
 @keyframes Desarrollo{
