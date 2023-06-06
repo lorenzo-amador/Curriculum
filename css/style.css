@@ -306,24 +306,24 @@ nav a:hover{
 }
 
 .Excel{
-    width: 45%;
-    animation: Excel 10s;
+    width: 48%;
+    animation: Excel 5s;
  font-weight: 500;
 }
 
 .Word{
     width: 40%;
-    animation: Word 10s;   
+    animation: Word 5s;   
      font-weight: 500;
 }
 .Powerpoint{
     width: 20%;
-    animation: Powerpoint 10s;  
+    animation: Powerpoint 5s;  
       font-weight: 500;
 }
 .Desarrollo {
     width: 10%;
-    animation: Desarrollo 10s; 
+    animation: Desarrollo 5s; 
        font-weight: 500;
 }
 
@@ -333,7 +333,7 @@ nav a:hover{
         width: 0%;
     }
     100%{
-        width: 30%;
+        width: 48%;
     }
 }
 @keyframes Word{
@@ -341,7 +341,7 @@ nav a:hover{
         width: 0%;
     }
     100%{
-        width: 30%;
+        width: 40%;
     }
 }
 @keyframes Powerpoint{
@@ -422,6 +422,9 @@ font-weight: 500;
    
 }
 
+
+/* ESTUDIOS BARRA */
+
 .barra-avance span{
     height: 100%;
     float: left;
@@ -429,8 +432,8 @@ font-weight: 500;
    
 }
 .avance{
-    width: 73%;
-    animation: avance 15s;
+    width: 100%;
+    animation: avance 5s;
 }
 
 
@@ -441,7 +444,7 @@ font-weight: 500;
         width: 0%;
     }
     100%{
-        width: 73%;
+        width: 100%;
     }
 }
 
@@ -589,6 +592,35 @@ font-weight: 500;
     align-items: center;
 }
 
+.swiper-slide:nth-child(6){
+    background-image: url(../img/excel.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide:nth-child(7){
+    background-image: url(../img/python\ l.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide:nth-child(8){
+    background-image: url(../img/SQL.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
     color: rgb(233, 170, 48);
     border: 2px solid rgb(233, 170, 48);
@@ -622,7 +654,7 @@ footer p:nth-child(1) {
     font-weight: bold;
     /* color: #ffffff; */
     color: rgb(233, 170, 48);
-    text-decoration: 5px underline rgb(233, 170, 48);
+  
 }
 
 footer p:nth-child(2) {
