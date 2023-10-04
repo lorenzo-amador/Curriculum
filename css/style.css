@@ -1,5 +1,10 @@
+:root{
+--color-primario:#04253A;
+--color-secundario:#4C837A;
+--color-terceario:#E1DDBF;
+--color-auxiliar:#1B191A;
 
-
+}
 body {
     background: #1B191A;  
     margin: 0px;
@@ -29,7 +34,7 @@ a {
 
 section {
     width: 100%;
-    height: 75vh;
+    height: 85vh;
     background-image: url("../img/section.webp");
     background-size: cover;
    background-position: center;
@@ -41,7 +46,7 @@ section {
 	display:none;
 	padding:10px;
     border-radius: 30%;
-    background-color:rgb(233, 170, 48);
+    background-color:var(--color-secundario);
 	font-size:25px;
 	color: rgb(48, 48, 47); 
 	cursor:pointer;
@@ -56,14 +61,14 @@ section {
     color:#fff;
     transition:ease-out 0.4s;
     transform: scale(1.1);
-    box-shadow: 0 0 10px rgb(233, 170, 48);
+    box-shadow: 0 0 10px --color-secundario;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 8vh;
     /* background-color:2b2c2c; */
     background: #1B191A;  
     background: -webkit-linear-gradient(to left, #434343, #232424); 
@@ -114,8 +119,8 @@ nav p{
 
 nav a:hover{
     transition:all 0.5s;
-    text-shadow: 0 0 20px rgb(233, 170, 48);
-    color: #ffffff;
+    text-shadow: 0 0 20px ;
+    color: var(--color-terceario);
  
  
 }
@@ -161,7 +166,7 @@ nav a:hover{
 
 .acerca-de-mi-container {
     width: 100%;
-    height: 360px;
+    height: 75vh;
     background-color: 2b2c2c;
     display: flex;
     margin: -5% auto 10px auto;
@@ -180,6 +185,7 @@ nav a:hover{
 
 .acerca-de-mi-container-texto {
     width: 600px;
+    height: 300px;
     text-align: justify;
 }
 
@@ -189,7 +195,7 @@ nav a:hover{
    text-align: center;
    color:#fff;
    padding-inline: 2px;
-   font-size: 20px;
+   font-size: 23px;
    font-weight: 700;
    font-family: 'Montserrat', sans-serif;
 }
@@ -198,22 +204,22 @@ nav a:hover{
    position:absolute;
    right: 0;
    width:0;
-   height: 25px;
+   height: 27px;
    background:rgb(42, 44, 47);
    border-left: 2px solid ;
-   animation: escribir 3s steps(15) infinite ;
+   animation: escribir 1.9s steps(15) infinite ;
 
 }
 
 @keyframes escribir {
-   from { width: 60% }
-   to { width:38% }
+   from { width: 65% }
+   to { width:36% }
 }
 /* FIN ESCRITURA */
 
 .Habilidades-2 {
     width: 100%;
-    height:auto;
+    height:75vh;
     position: relative;
     margin-top: -3%;
     background-size:cover;
@@ -242,8 +248,8 @@ nav a:hover{
 
 
 .acerca-de-mi-container-texto p:nth-child(2) {
-    color: rgb(233, 170, 48);
-    font-size: 20px;
+    color: #fff;
+    font-size: 22px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     line-height: 5px;
@@ -260,25 +266,21 @@ nav a:hover{
 
 .Habilidades {
     width: auto;
-    height:auto;
-    /* background-color: rgb(35, 36, 36); */
-    background: #2b2c2c;  
-    margin-top: -2%;
+    height:60vh;
+background-color: rgb(35, 36, 36);
+       margin-top: -2%;
 }
 
 .Habilidades li {
     color: bfb9b0;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    margin: 0 25%;
+    margin: 0% 25%;
     line-height: 30px;
     list-style: none;
     font-weight: 500;
 }
 
-.Habilidades li:nth-child(5){
-    padding-bottom:30px;
-}
 
 .barra{
     background-color: #727680;
@@ -586,8 +588,8 @@ font-weight: 500;
 }
 
 .button {
-    color: rgb(233, 170, 48);
-    border: 2px solid rgb(233, 170, 48);
+    color: #ffffff;
+    border: 2px solid #ffffff ;
     width: 160px;
     height: 30px;
     padding-top: 10px;
@@ -601,10 +603,10 @@ font-weight: 500;
  }
 
  .button:hover{
-    background-color:rgb(233, 170, 48); 
+    background-color:#339ADF; 
     color: #fff;
     transition: 1.5s;
-    box-shadow: 0 0 10px rgb(233, 170, 48);
+   
 }
 
 
@@ -616,10 +618,12 @@ footer p:nth-child(1) {
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: bold;
-    /* color: #ffffff; */
-    color: rgb(233, 170, 48);
+     color: #ffffff;
+
+    margin-bottom: 25px;
   
 }
+
 
 footer p:nth-child(2) {
     font-size: 16px;
@@ -629,7 +633,7 @@ footer p:nth-child(2) {
 }
 
 footer {
-    height: 360px;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -639,6 +643,9 @@ footer {
     margin-top: 5%;
     
 }
+
+
+
 
 
 .social-icons a {
@@ -665,10 +672,9 @@ footer {
 }
 
 .social-icons a:hover {
-    background-color: rgb(233, 170, 48);
-    box-shadow: 0 0 10px rgb(233, 170, 48);
-    transition: all ease 0.5s;
-    transform: scale(1.2);
+    background-color:#253140;;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+    transform: scale(1.5);
     
 }
 
@@ -701,8 +707,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 5px 5px;
     padding: 0px;
     line-height: 0px;
@@ -713,13 +719,13 @@ footer {
 }
 
 .social a:hover {
-    background-color:rgb(233, 170, 48);
-    transition: all linear 0.5s;
-    box-shadow: 0 0 10px rgb(233, 170, 48);
+    background-color:#253140;
+    transition: cubic-bezier(1, 0, 0, 1)
+   
 }
 
 .social i {
-    font-size: 20px;
+    font-size: 15px;
     color: #2B2B2B;   
 }
 
@@ -1235,9 +1241,10 @@ footer {
         .Foto {
             display: none;
         }
- 
 
-
+        body{
+            background-color: #ffffff;
+        }
         /* MENU */
         .toggle {
             display: block;
@@ -1317,7 +1324,7 @@ footer {
 
              /* FIN BOTON */
         .Habilidades {
-            margin: 6% 0;
+            margin: -1% 0 0 0;
 
         }
         .Habilidades li {
@@ -1336,8 +1343,9 @@ footer {
             padding: 15px;
         }
         .Habilidades-2 {
-            height: auto;
-            margin: -6.5%  0;
+            height: 270px;
+            margin: -7%  255px 0 0;
+            background-color: #d4d1d1;
 
         }
         .Habilidades-2 p {
@@ -1396,8 +1404,10 @@ footer {
          }
          .swiper {
             width: 100%;
-            height: 350px;
+            height: 370px;
           }
+
+
 
         .swiper-slide p{
         font-family: 'Montserrat', sans-serif;
@@ -1533,11 +1543,6 @@ footer {
 
             }
 
-            .Habilidades{
-                margin-top: -1.9%;
-            }
-  
-    }
-
+        
 
 
